@@ -1,0 +1,584 @@
+---
+title: "Money and Banking"
+subtitle: "ECON304.M01.SP2026 - Syllabus"
+author: "Dr. Meghan Downes"
+date: "Spring 2026"
+toc: true
+toc-depth: 2
+format:
+  pdf:
+    margin-left: 1in
+    margin-right: 1in
+    margin-top: 1in
+    margin-bottom: 1in
+    fontsize: 11pt
+    linestretch: 1.15
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead[L]{ECON 304 - Spring 2026}
+        \fancyhead[R]{Dr. Meghan Downes}
+        \fancyfoot[C]{\thepage}
+    hyperref:
+      colorlinks: true
+      linkcolor: blue
+      urlcolor: blue
+    toc-title: "Table of Contents"
+    toc-depth: 2
+---
+
+# Course Information
+
+## Instructor Contact
+
+**Dr. Meghan Downes**
+College Professor
+Economics, Applied Statistics, and International Business
+College of Business  
+New Mexico State University
+
+**Email:** cmdownes@nmsu.edu  
+**Office Phone:** 575.646.3295  
+**Cell Phone:** 575.249.6497  
+**Office:** DOM224  
+**Office Hours:** BY APPOINTMENT ONLY
+
+## Office Hours
+
+Please email to ensure you have my time reserved and available to meet your needs. Office hours will be conducted over Zoom or in-person. I reserve time Monday-Thursday at 10:00-10:30 and Monday-Thursday 1:30-2:00 pm for office hours -- but you must make an appointment. I reserve 10 minutes before class and 15 minutes after class to meet with students. Please see me IN class so that I can help you. Most issues are easily resolved if you see me before/after class.
+
+## Communication Information
+
+I will typically respond to communications within 24 hours. If I have received numerous messages on the same topic, I will typically post an announcement in Canvas and not respond individually. Most of my communication to you will be via Announcements in Canvas. I occasionally send an email through Canvas as well. For questions or concerns about class, it is important you use the Mail tool in Canvas (the Inbox) and send the email through Canvas. This ensures that your query is linked to your section and helps me find the information I need to help you.
+
+## Absences and Make-up Work
+
+For any and all absences, you will need to complete my **"Absence Notification Form"** that you will see at the top of the Canvas homepage. No make-up work will be assigned until this is completed. All make-up work will be scheduled with the TA and completed in-person. **DO NOT** email me to tell me you are not feeling well. This is information you will provide in the **Absence Notification Form**. This allows me to properly respond to your needs and makes sure I can track down all your information and advocate for you when necessary. It keeps the information I need accessible and actionable. Your compliance is necessary if I am to properly assist you.
+
+---
+
+## Course Details
+
+**Course Number:** ECON 304 - M01  
+**Credits:** 3  
+**Semester:** Spring 2026  
+**Duration:** January 22 - May 6, 2026 (16 weeks)  
+**Prerequisites:** None
+
+### Course Meeting Times & Location
+
+**Format:** Face-to-Face  
+**Location:** DOM223  
+**Meeting Times:** Mondays & Wednesdays, 10:30 AM - 11:45 AM
+
+**Important Dates:**
+- Classes Begin: January 22, 2026
+- MLK Holiday: January 20, 2026
+- Spring Break: March 9-15, 2026
+- Classes End: May 6, 2026
+- Final Grades Due: May 16, 2026
+
+---
+
+## Course Description
+
+This course provides a comprehensive introduction to monetary economics, financial institutions, and monetary policy. We explore how the Federal Reserve system functions, how interest rates are determined, how banks create money, and how monetary policy affects the broader economy. Through lectures, case studies, interactive worksheets, hands-on experiments, and a capstone project, students develop a deep understanding of the financial system and monetary policy tools.
+
+Money and Banking is the study of decision-making at the financial system level. How do central banks manage the money supply? What determines interest rates? How do monetary policy decisions affect inflation, employment, and economic growth? This course explores these critical questions through core economic principles applied to the financial sector.
+
+---
+
+## Required Materials
+
+### Textbook
+
+**Money, Banking and Financial Markets** (Mishkin's Contemporary Approach)  
+*by Frederic S. Mishkin*  
+*Latest Edition through Follett Discover*
+
+The textbook is accessed through the Follett Discover platform and provides a comprehensive treatment of:
+- Financial system structure and function
+- Determination of interest rates
+- Monetary policy transmission mechanisms
+- Central banking and the Federal Reserve
+- Financial crises and stability
+
+**Format Options:**
+- Digital access through Follett Discover
+- Print rental available
+- eBook format
+
+### Follett ACCESS Program
+
+Required course materials are provided digitally through the Follett Access program at a fixed rate, which is billed directly to your student account when you register for the course. These materials will be available via Canvas on the first day of class. The textbooks can be accessed digitally on the first day through the Follett My Materials link and the Course Materials module.
+
+By enrolling in this course, you have been automatically enrolled in the NMSU Integrated Access Program. This means that your required course materials are being provided to you automatically for this class. The charge for this material has been added to your MyNMSU student account. If you have further questions about Follett Access at NMSU, please reach out to the NMSU Bookstore.
+
+**Your Opt-out deadline: 2/6/2026** 
+
+The opt-out portal closes on: 2/6/2026
+
+**Opt-out Portal Link:** https://accessportal.follett.com/2218
+
+If you decide not to participate, you can opt out of this program once the opt-out portal opens through the above deadline. Once you opt out, you will be responsible for purchasing the materials listed below on your own. A link to the opt-out portal has been sent to your school mail account from noreply@follett.com and can also be found above. 
+
+If you have further questions, please email bookstore@nmsu.edu 
+
+**Follett Access Support (NMSU Bookstore – Las Cruces/Main Campus)**  
+Email: 2218txt@follett.com, 2218mgr@follett.com
+
+### Required Materials
+
+- 3-Ring Binder
+- 3"x5" note cards
+- 4 color writing instruments
+- A dumb calculator (NO BLUETOOTH or WI-FI Connectivity, No Programming)
+- Computer with reliable internet connection
+
+---
+
+## Course Learning Outcomes
+
+By the end of this course, you will be able to:
+
+1. **Understand financial system structure** - Grasp the organization of the Federal Reserve System, types of financial institutions, and their roles
+2. **Analyze interest rate determination** - Apply economic theory to explain how interest rates are determined in different markets
+3. **Explain money creation** - Understand how banks create money through the lending process and money multiplier mechanics
+4. **Evaluate monetary policy tools** - Compare and critique different monetary policy instruments (open market operations, discount rate, reserve requirements)
+5. **Assess policy transmission** - Analyze how monetary policy decisions work through the economy to affect inflation, unemployment, and growth
+6. **Apply real-world analysis** - Connect course concepts to current financial events, policy debates, and banking crises
+7. **Think like a monetary economist** - Recognize how financial incentives, regulations, and expectations shape money and banking
+
+---
+
+## General Education & Essential Skills
+
+This course fulfills general education requirements and includes instruction in:
+
+- **Communication** - Written and verbal expression of economic concepts related to finance and policy
+- **Critical Thinking** - Analyzing monetary policy problems and evaluating alternative solutions
+- **Information & Digital Literacy** - Working with financial data, Federal Reserve publications, and economic models
+
+---
+
+## Course Organization & Structure
+
+This course combines synchronous class meetings with structured independent learning:
+
+- **Class Sessions (M/W):** Interactive lectures, case studies, discussions, and simulations
+- **Reading & Study:** Chapter readings from Mishkin with focus questions
+- **Worksheets:** Apply concepts immediately after class (due same day)
+- **Experiments:** Hands-on financial simulations and policy analysis
+- **Monetary Policy Project:** Semester-long project analyzing real Fed decisions
+- **Economic Notebook:** Weekly reflection connecting concepts to financial events
+
+### Engaged Hours
+
+This 3-credit course is designed for approximately 135+ engaged hours distributed across:
+
+| Activity | Hours |
+|----------|-------|
+| In-class instruction (32 hours) | 32 |
+| Reading & studying chapters | 45 |
+| Worksheets (20 worksheets × 1-2 hours) | 30 |
+| Experiments & analysis | 10 |
+| Monetary Policy Project | 12 |
+| Economic Notebook | 6 |
+| **Total** | **135** |
+
+\newpage
+
+# Assessment & Grading
+
+## Grading Scale
+
+**Total Points: 800**
+
+| Letter Grade | Points Required | Percentage |
+|---|---|---|
+| A | 720-800 | 90-100% |
+| B | 640-719 | 80-89% |
+| C | 560-639 | 70-79% |
+| D | 480-559 | 60-69% |
+| F | Below 480 | Below 60% |
+
+## Point Distribution (800 Total)
+
+| Assessment Type | Points per Item | Count | Total Points | Percentage |
+|---|---|---|---|---|
+| Class Worksheets | 20 | 20 | 400 | 50% |
+| Monetary Policy Project | 200 | 1 | 200 | 25% |
+| Experiments | 50 | 2 | 100 | 12.5% |
+| Economic Notebook | 100 | 1 | 100 | 12.5% |
+| TOTAL | — | — | 800 | 100% |
+
+---
+
+## 1. Class Worksheets (20 × 20 pts = 400 pts)
+
+**Purpose:** Reinforce learning from each class session and demonstrate understanding of key concepts in monetary economics.
+
+### Worksheet Schedule
+
+Each worksheet is due the same day as class by the end of class and must earn a completion stamp. Worksheets are named by date, day, and topic.
+
+**Examples:**
+- Jan22-FederalReserve-ws (20 pts)
+- Jan29-InterestRates-ws (20 pts)
+- Feb5-MoneySupply-ws (20 pts)
+
+### Submission Requirements
+
+- Submitted by end of class day - must earn stamp (same day as class)
+- Include your name and class date
+- Show all work for quantitative problems
+
+### Worksheet Rubric (20 points each)
+
+| Criterion | Points | Description |
+|---|---|---|
+| Completion | 8 | All questions answered clearly; shows effort and engagement |
+| Accuracy | 8 | Responses demonstrate understanding of core concepts; calculations are correct |
+| Application | 4 | Student connects concepts to real-world banking or policy examples |
+
+**Late Policy:** No late submissions accepted. Worksheets must be submitted by end of class.
+
+---
+
+## 2. Monetary Policy Project (200 pts)
+
+**Worth:** 200 points (25% of grade)  
+**Team Size:** 3-4 students  
+**Duration:** 10 weeks (Feb 26 - May 6)
+
+### Project Mission
+
+Analyze a major Federal Reserve monetary policy decision and evaluate its effectiveness. Your analysis should apply monetary economic principles to assess how and why the Fed made specific policy choices and what their economic impacts were.
+
+### Project Philosophy
+
+We're not looking for purely academic exercises. We're looking for economic thinking applied to real monetary policy decisions. The best projects show:
+
+- Clear understanding of the economic context when the decision was made
+- Rigorous application of monetary theory to explain Fed actions
+- Honest assessment of policy effectiveness using real economic data
+- Thoughtful evaluation of alternative policy approaches the Fed might have considered
+
+### Project Phases
+
+#### Phase 1: Policy Decision Identification (Due March 4)
+
+**Deliverable:** 1-2 page proposal
+
+**Requirements:**
+- Identify a significant Fed monetary policy decision (2008 financial crisis, 2020 pandemic response, recent rate changes, etc.)
+- Explain the economic context and why the decision was important
+- Describe what the Fed did (specific policy tools, magnitudes, timing)
+- Identify your team members and their roles
+- Provide initial bibliography (3+ sources)
+
+**Examples of Major Decisions:**
+- 2008-2009: Emergency lending facilities and quantitative easing
+- 2011-2014: Extended duration of low rates
+- 2015-2018: Interest rate normalization
+- 2020: Pandemic emergency response
+- 2021-2023: Inflation and rate hiking cycle
+
+#### Phase 2: Economic Context & Theory (Due April 8)
+
+**Deliverable:** 3-5 page progress report + supporting data
+
+**Requirements:**
+- **Economic Situation:** What was happening in the economy?
+- **Monetary Theory:** Which economic theories explain the Fed's decision?
+- **Policy Transmission:** How do these policy tools work through the economy?
+- **Alternative Theories:** How would different perspectives recommend different policies?
+- **Initial Assessment:** What do you predict will happen?
+
+#### Phase 3: Effectiveness Analysis & Evaluation (Due April 29)
+
+**Deliverable:** 10-15 page report with economic analysis + Excel spreadsheet
+
+**Requirements:**
+
+**A. Timeline & Events**
+- What exactly did the Fed do?
+- How was policy communicated?
+- How did markets react?
+
+**B. Monetary Transmission Analysis**
+- Interest rate channel
+- Credit channel
+- Asset price channel
+- Exchange rate channel
+- Expectations channel
+
+**C. Outcome Evaluation**
+- Did inflation respond as predicted?
+- Did unemployment respond as predicted?
+- Did growth respond as predicted?
+- Quantify the impacts using data
+
+**D. Effectiveness Assessment**
+- Did the policy achieve its stated goals?
+- Were there unintended consequences?
+- Could alternative policies have worked better?
+
+**E. Policy Comparison**
+- How does this policy compare to historical precedent?
+- What would other economists have recommended?
+- Was the policy better or worse than the alternatives?
+
+#### Phase 4: Final Presentation (May 4-8)
+
+**Deliverable:** 12-minute live presentation + final written submission
+
+**Presentation Components:**
+
+1. **The Economic Problem** - Conditions and why action was needed
+2. **The Policy Decision** - What the Fed did and why
+3. **The Transmission** - How policy worked through the economy
+4. **The Verdict** - Did it work? What were the trade-offs?
+5. **Q&A** - Be ready to defend your analysis
+
+### Monetary Policy Project Scoring Rubric (200 points)
+
+| Criterion | Points | Excellent | Good | Satisfactory | Needs Work | Incomplete |
+|---|---|---|---|---|---|---|
+| Economic Context | 40 | Thorough analysis; excellent use of data | Good understanding; solid analysis | Basic context; some data | Limited understanding | No context |
+| Monetary Theory | 40 | Sophisticated theory application; multiple perspectives | Good application; transmission mechanism clear | Theory applied; basic analysis | Weak application | No analysis |
+| Policy Evaluation | 40 | Rigorous assessment; excellent data use | Good assessment; solid data analysis | Policy evaluated; basic analysis | Weak evaluation | No evaluation |
+| Policy Comparison | 40 | Excellent comparison to alternatives | Good comparison; multiple approaches | Alternatives mentioned | Limited comparison | No comparison |
+| Presentation | 40 | Polished, professional presentation; excellent delivery | Well-organized; clear messaging | Adequate presentation; clear | Disorganized or unclear | No presentation |
+
+\newpage
+
+## 3. Experiments (2 × 50 pts = 100 pts)
+
+**Purpose:** Conduct economic experiments that demonstrate how financial markets and monetary policy work in practice.
+
+### Experiment 1: Interest Rate Determination (Due February 19 - 50 pts)
+
+**Objective:** Understand how supply and demand in loanable funds markets determines interest rates
+
+**Your Deliverable:** 3-page report including:
+- Market data and equilibrium analysis
+- Supply and demand curves and surplus analysis
+- Economic interpretation of results
+- Personal reflection on decision-making
+
+### Experiment 2: Monetary Policy Effects (Due April 1 - 50 pts)
+
+**Objective:** Explore how monetary policy decisions ripple through the economy
+
+**Your Deliverable:** 3-page report including:
+- Simulation data and outcomes
+- Monetary transmission analysis
+- Policy effectiveness assessment
+- Reflection on real monetary policy
+
+### Experiment Rubric (50 points each)
+
+| Criterion | Points | Description |
+|---|---|---|
+| Participation | 10 | Active engagement; follows instructions; contributes to group |
+| Data Analysis | 20 | Accurate calculations; appropriate graphs/visualizations |
+| Economic Interpretation | 15 | Connects data to theory; explains results logically |
+| Reflection | 5 | Thoughtful connection to real markets; insights |
+
+---
+
+## 4. Economic Notebook (100 pts)
+
+**Due:** May 8, 2026 (by end of class)
+
+### Purpose
+
+The Economic Notebook is an ongoing reflection document where you record observations and insights about money, banking, and monetary policy as you encounter them in news, current events, and personal financial experiences.
+
+### Notebook Requirements
+
+- **Format:** Physical notebook or digital document
+- **Frequency:** At least one entry per week (7 entries minimum)
+- **Length:** 300-500 words per entry
+- **Submissions:** Friday of each week (class or by 11:59 PM if digital)
+
+### Notebook Rubric (100 points)
+
+| Criterion | Points | Description |
+|---|---|---|
+| Completion | 25 | Minimum 7 entries; required length and dates |
+| Reflection Quality | 30 | Genuine thinking; connects to course concepts; insightful |
+| Economic Application | 25 | Concepts correctly applied; understanding demonstrated |
+| Clarity & Organization | 20 | Well-written; organized; proper grammar |
+
+### Notebook Submission
+
+- Submit final notebook by May 8 to classroom or email
+- Include all dated entries (physical or PDF)
+- Cover page with name, course number, semester
+- Optional: Include photos, graphs, or diagrams
+
+---
+
+# Course Schedule
+
+**Classes meet Mondays & Wednesdays**  
+**Start Date:** January 22, 2026  
+**End Date:** May 6, 2026
+
+| Week | Dates | Topics | Assignments | Due |
+|---|---|---|---|---|
+| 1 | Jan 22, 24 | Intro to Money and Banking | WS: 2 worksheets | Jan 24 EOC |
+| 2 | Jan 29, 31 | What is Money? | WS: 2 worksheets | Jan 31 EOC; NB: 1 |
+| 3 | Feb 5, 7 | Financial System Overview | WS: 2 worksheets; Exp 1 Rel | Feb 7 EOC |
+| 4 | Feb 12, 14 | Interest Rates & Bonds | WS: 2 worksheets | Feb 14 EOC; NB: #2 |
+| 5 | Feb 19, 21 | Lending & Borrowing | WS: 2 worksheets | Feb 21 EOC; Exp 1 |
+| 6 | Feb 26, 28 | Banking & Credit Creation | WS: 2 worksheets; Proj Rel | Feb 28 EOC; NB: #3 |
+| Spring Break | Mar 9-15 | No Classes | — | — |
+| 7 | Mar 2, 4 | Money Supply & Multiplier | WS: 2 worksheets | Mar 4 EOC; Prop |
+| 8 | Mar 19, 21 | Fed Structure & Tools | WS: 2 worksheets | Mar 21 EOC; NB: #4 |
+| 9 | Mar 26, 28 | Open Market Operations | WS: 2 worksheets; Exp 2 Rel | Mar 28 EOC |
+| 10 | Apr 2, 4 | Transmission Mechanisms | WS: 2 worksheets | Apr 4 EOC; NB: #5 |
+| 11 | Apr 9, 11 | Inflation & Policy | WS: 2 worksheets | Apr 11 EOC; Prog |
+| 12 | Apr 16, 18 | Crises & Regulation | WS: 2 worksheets | Apr 18 EOC; NB: #6 |
+| 13 | Apr 23, 25 | International Finance | WS: 2 worksheets | Apr 25 EOC; NB: #7 |
+| 14 | Apr 30, May 2 | Policy & Case Studies | WS: 2 worksheets | May 2 EOC; Draft |
+| 15 | May 6, 8 | Final Presentations | Presentations | May 8: Final + NB |
+
+---
+
+# Course Policies & Resources
+
+## Academic Integrity
+
+All work must be your own (or your group's in the case of the Monetary Policy Project).
+
+Acceptable: Collaborating on understanding; discussing concepts; studying together
+
+Not acceptable: Copying worksheets; submitting identical work; paraphrasing without understanding
+
+**Consequences of academic dishonesty:**
+- First offense: 0 on assignment + mandatory meeting
+- Second offense: F in course + referral to Dean of Students
+
+This course assumes that all work submitted by students will be generated by the students themselves, working individually or in groups. Students should not have another person/entity do the writing of any substantive portion of an assignment for them, which includes hiring a person or a company to write assignments and using AI tools.
+
+---
+
+## Late Work & Make-up Policy
+
+### Worksheets
+- No late submissions accepted
+- Worksheets must be submitted by end of class
+- If you miss class, email your completed worksheet before the next class meeting
+
+### Monetary Policy Project
+- **Proposal (March 4):** 5-point deduction per day late; maximum 3 days
+- **Progress Report (April 8):** 5-point deduction per day late; maximum 3 days
+- **First Draft (April 29):** 10-point deduction per day late; maximum 2 days
+- **Final (May 8):** No extensions - must present on assigned date
+
+### Experiments
+- **Experiment 1 (Feb 19):** 5-point deduction per day late; maximum 5 days
+- **Experiment 2 (April 1):** 5-point deduction per day late; maximum 5 days
+- Must participate in actual experiment (cannot be made up)
+
+### Notebook
+- Entries accepted through May 8
+- Weekly entries due Friday
+- Late entries deduct 2 points per entry
+
+---
+
+## Discrimination & Disability Accommodations
+
+Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act Amendments Act (ADA) covers issues relating to disability and accommodations. If a student has questions or needs an accommodation in the classroom (all medical information is treated confidentially), contact:
+
+### Disability Access Services
+
+Corbett Center Student Union Room 204
+575-646-6840
+das@nmsu.edu
+
+New Mexico State University, in compliance with applicable laws and in furtherance of its commitment to fostering an environment that welcomes and embraces diversity, does not discriminate on the basis of age, ancestry, color, disability, gender identify, genetic information, national origin, race, religion, retaliation, serious medical condition, sex (including pregnancy), sexual orientation, spousal affiliation, or protected veteran status in its programs and activities, including employment, admissions, and educational programs and activities. You may submit a report online at https://equity.nmsu.edu.
+
+Title IX prohibits sex harassment, sexual assault, dating and domestic violence, stalking and retaliation. For more information on discrimination or Title IX, or to file a complaint contact:
+
+Office of Institutional Equity (OIE)
+O'Loughlin House
+1130 University Avenue
+Phone: 575-646-3635
+Email: equity@nmsu.edu
+https://equity.nmsu.edu
+
+---
+
+## Student Resources
+
+- Academic Support: NMSU Writing Center, Tutoring Services
+- Counseling & Mental Health: Student Health Center, Counseling Services
+- Financial Aid: Office of Financial Aid
+- Library Resources: Zuhl Memorial Library
+
+Please visit the Syllabus Student Resources & Policy website for university policies and student services.
+
+### Campus Tutoring
+
+Campus Tutoring Services offers NMSU undergraduate students free, accessible and convenient options to supplement their academic experience. Visit https://campustutoring.nmsu.edu/.
+
+### Math Tutoring Center
+
+The Math Tutoring Center offers free help for math courses. Visit https://math.nmsu.edu/math-tutoring-page.html
+
+### Writing Center
+
+The Writing Center offers free services to all NMSU students through one-on-one consultations. Visit https://writingcenter.nmsu.edu/.
+
+### Student Accessibility Services (SAS)
+
+If you have a disability that may impact your learning or participation, please contact SAS as early as possible.
+
+Location: Corbett Center, Room 208
+Email: sas@nmsu.edu
+https://studentlife.nmsu.edu/disability-access-services1/index.html
+
+---
+
+# Communication
+
+## Email
+
+- Response time: 24-48 hours during weekdays
+- Include course number (ECON304) in subject line
+
+## Office Hours
+
+- By appointment: Email to schedule
+- Virtual options available
+
+## Course Announcements
+
+- Check Canvas regularly for announcements
+- Important dates and changes will be posted prominently
+
+---
+
+# Final Thoughts
+
+Money and banking are central to understanding modern economies. The Federal Reserve's decisions affect interest rates, inflation, employment, and growth. Financial crises reshape markets and livelihoods. By understanding monetary economics in this course, you'll be better equipped to understand economic news, make personal financial decisions, and engage in informed policy debates.
+
+I look forward to working with you this semester!
+
+---
+
+# Contact & Support
+
+**Questions?** Please reach out:
+- **Email:** cmdownes@nmsu.edu
+- **Office Hours:** BY APPOINTMENT ONLY (email to schedule)
+- **Office:** DOM224, College of Business
+
+**Last Updated:** January 25, 2026  
+**Version:** Spring 2026 - M01 Section

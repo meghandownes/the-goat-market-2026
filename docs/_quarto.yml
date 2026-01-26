@@ -1,25 +1,24 @@
 project:
   type: website
   output-dir: _site
-
+  pre-render:
+    - echo "Building The GOAT Market site..."
 website:
-  title: "The GOAT Market: Economics Teaching Hub"
-  
+  title: "The GOAT Market"
   navbar:
     background: primary
     search: true
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Money & Banking"
-        href: courses/ECON304/index.qmd
-      - text: "Macroeconomics"
-        href: courses/ECON2110/index.qmd
       - text: "Microeconomics"
         href: courses/ECON2120/index.qmd
+      - text: "Macroeconomics"
+        href: courses/ECON2110/index.qmd
+      - text: "Money & Banking"
+        href: courses/ECON304/index.qmd
       - text: "Resources"
         href: resources/index.qmd
-
   sidebar:
     # Money & Banking (ECON304) Sidebar
     - id: econ304
@@ -55,8 +54,6 @@ website:
               href: courses/ECON304/practice.qmd
         - auto: "courses/ECON304/"
           glob: "*.qmd"
-          
-    # Macroeconomics (ECON2110) Sidebar
     - id: econ2110
       title: "ECON 2110: Principles of Macroeconomics"
       style: "docked"
@@ -90,7 +87,6 @@ website:
               href: courses/ECON2110/practice.qmd
         - auto: "courses/ECON2110/"
           glob: "*.qmd"
-          
     # Microeconomics (ECON2120) Sidebar
     - id: econ2120
       title: "ECON 2120: Principles of Microeconomics"
@@ -127,7 +123,6 @@ website:
               href: courses/ECON2120/practice.qmd
         - auto: "courses/ECON2120/"
           glob: "*.qmd"
-          
     # Resources & General Sidebar
     - id: resources
       title: "Resources & Support"
@@ -145,26 +140,22 @@ website:
           href: resources/r-statistics.qmd
         - text: "About"
           href: about.qmd
-
   page-navigation: false
   back-to-top-navigation: true
-  
   page-footer:
     background: dark
-    left: "Copyright 2025, Instructor Name | NMSU Economics Department"
+    left: "Copyright 2026, Dr. Meghan Downes | NMSU Economics, Applied Statistics, and International Business"
     right:
       - icon: github
-        href: https://github.com/yourusername
+        href: https://github.com/meghandownes
       - icon: envelope
-        href: mailto:youremail@nmsu.edu
-
+        href: mailto:cmdownes@nmsu.edu
   announcement:
     icon: info-circle
     dismissable: true
     content: "📢 **Announcements** - Check Canvas LMS for assignment submissions and grades. This site contains course materials and interactive practice tools only."
     type: info
     position: below-navbar
-
 format:
   html:
     theme: lux
@@ -175,12 +166,6 @@ format:
     link-external-newwindow: true
     code-fold: true
     code-overflow: wrap
-
 execute:
   freeze: auto
   cache: true
-
-# Environment configuration for R
-project:
-  pre-render:
-    - echo "Building The GOAT Market site..."

@@ -1,149 +1,34 @@
 ---
-title: "The GOAT Market: Economics Teaching Hub"
-subtitle: "Interactive Learning Materials for NMSU Economics Courses"
+title: "The GOAT Market"
+subtitle: "Interactive Learning Materials for Economics"
 sidebar: false
 page-layout: full
 toc: false
 ---
 
-# Welcome to The GOAT Market
-
-Your comprehensive hub for interactive economics learning materials, practice tools, and course resources at NMSU.
-
-## 📚 Our Courses
-
-:::::::::::::::::: grid
-::::::: {.g-col-12 .g-col-md-4}
-:::::: {.card .h-100}
-::::: {.card-body .d-flex .flex-column}
-::: card-title
-## Money & Banking
-### ECON 304
-:::\
-
-Explore the financial system, monetary policy, and the Federal Reserve. Learn about interest rates, money supply, banking systems, and how central banks manage the economy.
-
-- **Topics**: Federal Reserve, Interest Rates, Money Supply, Financial Markets
-- **Interactive Tools**: Fed Funds Explorer, Money Supply Tracker, Rate Simulator
-- **Canvas**: Assignment submissions & grades
-
-::: mt-auto
-[Go to ECON 304 →](courses/ECON304/index.qmd){.btn .btn-primary}
-:::
-:::::\
-::::::\
-:::::::\
-
-::::::: {.g-col-12 .g-col-md-4}
-:::::: {.card .h-100}
-::::: {.card-body .d-flex .flex-column}
-::: card-title
-## Macroeconomics
-### ECON 2110
-:::\
-
-Examine the economy as a whole. Understand GDP, inflation, unemployment, and the policies that governments use to manage economic growth and stability.
-
-- **Topics**: GDP, Inflation, Employment, Fiscal & Monetary Policy
-- **Interactive Tools**: GDP Calculator, Inflation Explorer, Labor Market Simulator
-- **Canvas**: Assignment submissions & grades
-
-::: mt-auto
-[Go to ECON 2110 →](courses/ECON2110/index.qmd){.btn .btn-primary}
-:::
-:::::\
-::::::\
-:::::::\
-
-::::::: {.g-col-12 .g-col-md-4}
-:::::: {.card .h-100}
-::::: {.card-body .d-flex .flex-column}
-::: card-title
-## Microeconomics
-### ECON 2120 (2 Sections)
-:::\
-
-Study individual consumers, firms, and markets. Learn about supply and demand, consumer behavior, market structures, and competitive analysis.
-
-- **Topics**: Supply & Demand, Elasticity, Consumer Choice, Competition
-- **Interactive Tools**: Supply-Demand Visualizer, Elasticity Calculator, Market Simulator
-- **Canvas**: Assignment submissions & grades
-
-::: mt-auto
-[Go to ECON 2120 →](courses/ECON2120/index.qmd){.btn .btn-primary}
-:::
-:::::\
-::::::\
-:::::::\
-::::::::::::::::::\
-
----
-
-## About This Site
-
-**The GOAT Market** provides a modern, interactive learning environment for NMSU economics students. This site features:
-
-- **📖 Course Materials**: Syllabi, schedules, resources, and lecture notes
-- **🔧 Interactive Tools**: Hands-on practice with graphs, calculators, and simulations hosted on ShinyApps.io
-- **📊 Problem Sets**: Downloadable worksheets for independent practice
-- **🎯 Polls & Surveys**: Anonymous participation tools for engagement and feedback
-- **🔗 Canvas Integration**: All grades and assignment submissions managed through Canvas LMS
-
-### How to Use This Site
-
-1. **Select your course** from the navigation above
-2. **Review course materials**: Syllabus, schedule, and resources
-3. **Practice with interactive tools**: Click links to explore economic concepts dynamically
-4. **Submit assignments in Canvas**: Use Canvas LMS for all graded work
-5. **Check the Resources page**: Access datasets, tutorials, and support materials
-
-### 📌 Important Notes
-
-- **Grades & Submissions**: All assignments and grades are managed through **Canvas LMS**
-- **Anonymous Practice**: Polls and practice tools on this site collect no personal information
-- **Materials**: Lecture notes, worksheets, and syllabi are available for download as PDFs
-- **Technical Issues**: Contact your instructor if you experience problems with any tools
-
----
-
-## Quick Links
+# Select Your Course
 
 :::: {.grid}
 
-::: {.g-col-12 .g-col-sm-6}
-### For Students
-
-- [Resources & Support](resources/index.qmd) - Datasets, tutorials, and help
-- [Data Sources](resources/data-sources.qmd) - Economic data repositories
-- [R & Statistics Guide](resources/r-statistics.qmd) - Technical support
+::: {.g-col-12 .g-col-md-4}
+### ECON2120G
+[Explore Microeconomics →](courses/ECON2120/index.qmd){.btn .btn-primary .btn-lg}
 :::
 
-::: {.g-col-12 .g-col-sm-6}
-### Course Specific
+::: {.g-col-12 .g-col-md-4}
+### ECON2110G
+[Explore Macroeconomics →](courses/ECON2110/index.qmd){.btn .btn-primary .btn-lg}
+:::
 
-- **ECON 304**: [Money & Banking](courses/ECON304/index.qmd)
-- **ECON 2110**: [Macroeconomics](courses/ECON2110/index.qmd)
-- **ECON 2120**: [Microeconomics](courses/ECON2120/index.qmd)
+::: {.g-col-12 .g-col-md-4}
+### ECON304
+[Explore Money & Banking →](courses/ECON304/index.qmd){.btn .btn-primary .btn-lg}
 :::
 
 ::::
 
----
+### 📚 About This Website
 
-## Technology Stack
+Created by Dr. Meghan Downes. January 2026.  No part of this material may be copied, distributed or used without permission of Dr. Downes.  All material is subject to change. Some AI may have been harmed in the creation of these course materials, specifically Perplexity had some moments of "brain-breaking" trying to solve some code issues.  All irreverant humor or out-and-out stupidity is, however, all the result of Dr. Downes.  
 
-This site is built with modern, student-friendly tools:
 
-- **Quarto**: Static documentation and educational materials
-- **R/Shiny**: Interactive web applications for hands-on learning
-- **GitHub Pages**: Reliable, free hosting for course materials
-- **ShinyApps.io**: Interactive tools and practice environments
-- **Bootstrap/Lux**: Clean, professional design theme
-
----
-
-<center>
-**Happy Learning! 📊📈**
-
-*For questions or technical issues, see the About page or contact your instructor.*
-</center>
