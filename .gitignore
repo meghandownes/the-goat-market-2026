@@ -6,3 +6,5 @@
 # renv
 renv.lock
 /renv
+
+/.quarto/
