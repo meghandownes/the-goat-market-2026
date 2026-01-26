@@ -1,0 +1,76 @@
+---
+title: "Class Worksheet Template"
+subtitle: "ECON2110G | Principles of Macroeconomics"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+---
+
+# Worksheet: [Topic Name]
+
+**Date:** [Date]  
+**Class:** ECON2110G | Principles of Macroeconomics  
+**Instructor:** Dr. Meghan Downes  
+**Total Points:** 20
+
+---
+
+## Instructions
+
+- Complete all questions during class
+- Show your work for quantitative problems
+- Be prepared to discuss your answers
+- Save your completed worksheet with the filename: `MMDD-topic-ws.qmd`
+- Submit via [course submission system]
+
+---
+
+## Question 1
+
+[Question content here]
+
+**Your Answer:**
+
+[Space for student response]
+
+---
+
+## Question 2
+
+[Question content here]
+
+**Your Answer:**
+
+[Space for student response]
+
+---
+
+## Question 3: Reflection
+
+Think about how today's concept relates to something in your life or the news.
+
+**Your Reflection:**
+
+[Space for student response]
+
+---
+
+## Grading Rubric
+
+| Criterion | Points | Comments |
+|-----------|--------|----------|
+| Question 1 Accuracy | 6 | |
+| Question 2 Accuracy | 6 | |
+| Reflection Quality | 5 | |
+| Clarity & Organization | 3 | |
+| **TOTAL** | **20** | |
+
+---
+
+### Completed by:
+Name: _________________________  
+Date: _________________________
+
+**Remember:** Economics is everywhere. Look for connections between today's concepts and your daily life!

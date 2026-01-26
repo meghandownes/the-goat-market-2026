@@ -1,0 +1,309 @@
+---
+title: "Grading & Assessment"
+subtitle: "ECON2110G | Principles of Macroeconomics"
+format:
+  html:
+    toc: true
+---
+
+# Grading & Assessment Structure
+
+## Overview
+
+Your grade in ECON2110G is based on four types of assessments totaling **800 points**. This grading system emphasizes consistent engagement, deep understanding, practical application, and collaborative policy development.
+
+---
+
+## Assessment Components
+
+### 1. Class Worksheets (400 points total)
+
+**Purpose:** Reinforce key concepts through problem-solving and real-world application
+
+**Format:**
+- 20 worksheets throughout the semester
+- One per class session (mostly)
+- Named format: `MMDD-topic-ws.qmd`
+- Example: `0127-scarcity-ws.qmd`, `0129-opportunity-cost-ws.qmd`
+
+**Scoring:**
+- Each worksheet: 20 points
+- 20 worksheets × 20 points = 400 points
+- Graded on completion, effort, and correctness
+- Worksheets are completed during class time
+
+**Topics Covered:**
+- Scarcity and economic thinking
+- Opportunity cost and marginal analysis
+- Quantitative methods and unit analysis
+- Economic measurement (GDP, inflation, growth)
+- Growth models (Solow, Keynesian, Monetary, AD/AS)
+- Policy analysis and applications
+
+**Late Work Policy:**
+- Submitted same day: Full credit (20 points)
+- Submitted within 1 week: Half credit (10 points)
+- After 1 week: No credit (0 points)
+- *Note: Worksheets missed due to absence can be made up, but late penalties apply*
+
+---
+
+### 2. In-Class Experiments (100 points total)
+
+**Purpose:** Develop intuition for economic principles through experiential learning
+
+**Format:**
+- 2 experiments throughout the semester
+- **Experiment 1 (Week 3):** Marginal thinking and decision-making
+- **Experiment 2 (Week 6):** Growth, compound effects, and exponential processes
+
+**Scoring:**
+- Each experiment: 50 points
+- 2 experiments × 50 points = 100 points
+- Graded on participation, data collection, and reflection
+
+**What to Expect:**
+- Market simulations and trading exercises
+- Individual decision-making tasks
+- Group problem-solving challenges
+- Real-time data collection and analysis
+- Post-experiment reflective writing
+
+**Participation Requirements:**
+- Attendance is mandatory
+- Active participation in all phases (experiment, data collection, analysis)
+- Completion of experiment documentation
+- Reflection on findings and economic implications
+
+---
+
+### 3. Economics Notebook (100 points total)
+
+**Purpose:** Build a reflective practice connecting theory to lived experience
+
+**Format:**
+- Semester-long reflective journal
+- 3 major reflection entries (roughly every 5 weeks)
+- Each entry: 500-750 words
+- Submitted electronically in Quarto markdown format
+
+**Scoring:**
+- Entry 1 (Due Week 5, Feb 19): 33 points
+- Entry 2 (Due Week 10, Apr 2): 33 points
+- Entry 3 (Due Week 14, Apr 30): 34 points
+- Total: 100 points
+
+**Reflection Prompts (Examples):**
+- How has studying scarcity and opportunity cost changed how you think about your own decisions?
+- What surprised you most about economic growth models, and why?
+- How do different economic theories help explain a current event or policy debate?
+- Which economic principle has the most relevance to your future career?
+- What misconceptions about the economy did you have before this course?
+
+**Grading Criteria:**
+- **Depth of Reflection (40%):** Goes beyond surface level; shows genuine engagement
+- **Connection to Course Content (30%):** Explicitly links personal observations to concepts from class
+- **Clarity & Writing (20%):** Clear, organized, well-written entries
+- **Evidence of Growth (10%):** Shows evolving understanding over the semester
+
+**Format Requirements:**
+- Use Quarto markdown (.qmd format)
+- Include citations where referencing specific course materials
+- Each entry should be 500-750 words
+- Include the entry number and date in the header
+
+---
+
+### 4. Semester Project: *Let's Play Policy: Who's The GOAT?* (200 points total)
+
+**Purpose:** Synthesize semester learning to develop and present original policy recommendations
+
+**Overview:**
+This capstone project asks you to take an economic policy question and develop evidence-based recommendations. You'll work in groups of 2-3 to create a policy brief and presentation, answering: "What is the greatest economic policy approach of all time (GOAT) for addressing this issue?"
+
+**Project Components:**
+
+#### A. Policy Brief (100 points)
+A 2,000-2,500 word written analysis including:
+
+1. **Issue Definition (20 points)**
+   - Clear articulation of the macroeconomic problem
+   - Why it matters (economic and social significance)
+   - Current state of the problem with data
+
+2. **Theoretical Analysis (30 points)**
+   - Which economic theories best explain the problem?
+   - How do different theories suggest different causes?
+   - What does each theory predict about solutions?
+
+3. **Policy Options (30 points)**
+   - At least 3 different policy approaches examined
+   - Pros and cons of each approach
+   - Evidence from case studies or research
+
+4. **Recommendation & Justification (20 points)**
+   - Your recommended policy approach
+   - Why this policy is the "GOAT" (Greatest Approach of All Time)
+   - Implementation considerations
+
+#### B. Presentation (75 points)
+A 15-20 minute group presentation including:
+
+- **Content Clarity (25 points):** Clear explanation of issue, analysis, and recommendation
+- **Visual Design (20 points):** Well-organized slides with appropriate visuals and data
+- **Delivery (20 points):** Confident presentation, good time management, engagement with audience
+- **Q&A (10 points):** Thoughtful responses to audience questions
+
+#### C. Peer Evaluation (25 points)
+- Each student evaluates peer contributions
+- Ensures accountability and fair distribution of work
+- Peer feedback affects individual scores
+
+**Timeline:**
+- **Week 12-13:** Topic selection and group formation
+- **Week 13-14:** Research and draft development
+- **Week 15:** Presentations (May 5-7)
+- **Week 15:** Final submissions (May 7)
+
+**Possible Policy Topics:**
+- Monetary policy and inflation control
+- Fiscal stimulus and recession recovery
+- Long-term growth and productivity
+- Income inequality and redistribution
+- International trade and tariff policy
+- Financial regulation and stability
+- Climate change and carbon pricing
+- Healthcare economics and pricing
+- Education investment and returns
+- Immigration and labor markets
+
+**Format Requirements:**
+- Written brief: Professional Quarto (.qmd) document
+- Presentation: PDF slides or Quarto HTML presentation
+- Include references and citations (APA or Chicago style)
+- All group members must participate in presentation
+
+**Grading Criteria for Brief:**
+- Evidence of research (at least 5 credible sources)
+- Quality of economic analysis (appropriate use of concepts)
+- Clarity of writing and organization
+- Originality and depth of thinking
+- Proper citations and formatting
+
+---
+
+## Grade Calculation Example
+
+Here's how your final grade would be calculated:
+
+| Component | Points Earned | Points Possible | % of Grade |
+|-----------|--------------|-----------------|-----------|
+| Worksheets (20 × 20) | 370 | 400 | 46.25% |
+| Experiments (2 × 50) | 95 | 100 | 11.875% |
+| Notebook (3 entries) | 92 | 100 | 11.5% |
+| Semester Project | 185 | 200 | 23.125% |
+| **TOTAL** | **742** | **800** | **100%** |
+| **Grade** | 92.75% | — | **A-** |
+
+---
+
+## Grade Scale
+
+| Letter Grade | Percentage Range | Points Range (out of 800) |
+|-------------|-----------------|--------------------------|
+| A | 90-100% | 720-800 |
+| B | 80-89% | 640-719 |
+| C | 70-79% | 560-639 |
+| D | 60-69% | 480-559 |
+| F | Below 60% | Below 480 |
+
+---
+
+## Assessment Best Practices
+
+### Preparing for Success
+
+**For Worksheets:**
+- Attend class prepared with assigned readings
+- Participate actively in discussions
+- Ask questions when concepts aren't clear
+- Review previous worksheets before exams
+
+**For Experiments:**
+- Arrive on time and ready to participate
+- Follow experiment instructions carefully
+- Take detailed notes during the experiment
+- Think critically about results and implications
+
+**For Notebook:**
+- Write reflections regularly (don't wait until due date)
+- Make specific connections to course concepts
+- Use examples from news, your life, or current events
+- Revise and proofread before submission
+
+**For Semester Project:**
+- Start research early; don't wait until final week
+- Meet with your group regularly
+- Practice presentation multiple times
+- Peer review each other's work before final submission
+
+---
+
+## Important Grading Policies
+
+### Late Work
+- **Worksheets:** 50% credit if submitted within 1 week; no credit after 1 week
+- **Notebook Entries:** 10% penalty per day late (max 3 days); no credit after 3 days
+- **Project Components:** Discussed with instructor; typically -10% per day late
+
+### Incomplete Grades
+- Granted only in exceptional circumstances
+- Requires written agreement with instructor before end of semester
+- Must be completed within agreed-upon timeframe
+
+### Grade Disputes
+- Discuss grading concerns within 1 week of grade posting
+- Come prepared with specific questions or evidence
+- Respectful dialogue and detailed rubrics help resolve disputes
+
+### Rounding Policy
+- Final grades are not rounded (92.4% = B+, not A-)
+- Consistent with university policy
+
+---
+
+## Support for Struggling Students
+
+If you're earning below 70% at midterm:
+- Schedule a meeting with the instructor
+- Discuss challenges and barriers to learning
+- Develop a plan for improvement
+- Consider tutoring or study groups
+- Review difficult concepts in office hours
+
+### Additional Resources
+- **Writing Center:** Help with policy brief and notebook entries
+- **Tutoring Services:** Math and economics support
+- **Disability Services:** Accommodations if needed
+- **Counseling:** Support for personal challenges affecting academics
+
+---
+
+## Summary
+
+| Assessment | When | Points | Format |
+|-----------|------|--------|--------|
+| **Worksheets** | Each class | 20 each × 20 | In-class problem-solving |
+| **Experiment 1** | Week 3 | 50 | Experiential learning |
+| **Experiment 2** | Week 6 | 50 | Experiential learning |
+| **Notebook 1** | Week 5 | 33 | Reflective writing |
+| **Notebook 2** | Week 10 | 33 | Reflective writing |
+| **Notebook 3** | Week 14 | 34 | Reflective writing |
+| **Project Brief** | Week 15 | 100 | Policy analysis paper |
+| **Project Presentation** | Week 15 | 75 | Group presentation |
+| **Peer Evaluation** | Week 15 | 25 | Peer feedback |
+| **TOTAL** | — | **800** | — |
+
+---
+
+For detailed information about specific assignments, see [Course Schedule](course-schedule.qmd) and [Full Syllabus](syllabus.qmd).

@@ -1,0 +1,191 @@
+---
+title: "Course Schedule"
+subtitle: "ECON2110G | Spring 2026 | 16 Weeks"
+format:
+  html:
+    toc: true
+---
+
+# 16-Week Course Schedule
+
+**Course Start Date:** January 21, 2026  
+**Instructor:** Dr. Meghan Downes  
+**Textbook:** *Principles of Macroeconomics* (Latest Edition) by Cowen & Tabarrock  
+
+---
+
+## Week 1: Foundations of Economics
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Jan 20** | MLK Day - No Class | — | — |
+| **Wed, Jan 22** | Welcome & Scavenger Hunt Overview | Lab 1: Scavenger Hunt | 0-20 pts |
+
+---
+
+## Week 2: Scarcity and Opportunity Cost
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Jan 27** | Scarcity: A World of Limits | 0127-scarcity-ws | 0-20 pts |
+| **Wed, Jan 29** | Opportunity Cost: No Free Lunch | 0129-opportunity-cost-ws | 0-20 pts |
+
+---
+
+## Week 3: Economic Thinking Fundamentals
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Feb 3** | Sunk Cost Fallacy | 0203-sunkcost-ws | 0-20 pts |
+| **Wed, Feb 5** | Marginal Thinking | **Experiment 1** | 0-50 pts |
+
+---
+
+## Week 4: Quantitative Tools
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Feb 10** | Working with Units & Factor Cancel | 0210-units-ws | 0-20 pts |
+| **Wed, Feb 12** | Math in Economics | 0212-economics-math-ws | 0-20 pts |
+
+---
+
+## Week 5: Measuring Economic Performance
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Feb 17** | GDP and Its Variants | 0217-gdp-ws | 0-20 pts |
+| **Wed, Feb 19** | Understanding Rates & Growth | 0219-rates-growth-ws | 0-20 pts |
+
+---
+
+## Week 6: Growth and Change
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Feb 24** | Changing Prices Over Time | 0224-prices-ws | 0-20 pts |
+| **Wed, Feb 26** | The Miracle of Growth | **Experiment 2** | 0-50 pts |
+
+---
+
+## Week 7: Growth Models
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Mar 3** | The Solow Growth Model Pt. 1 | 0303-solow-pt1-ws | 0-20 pts |
+| **Wed, Mar 5** | The Solow Growth Model Pt. 2 | 0305-solow-pt2-ws | 0-20 pts |
+
+---
+
+## Week 8: Keynesian Economics
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Mar 10** | The Keynesian Model Pt. 1 | 0310-keynesian-pt1-ws | 0-20 pts |
+| **Wed, Mar 12** | The Keynesian Model Pt. 2 | 0312-keynesian-pt2-ws | 0-20 pts |
+
+---
+
+## Spring Break
+
+**March 15-23, 2026** - No Classes
+
+---
+
+## Week 9: Monetary Economics
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Mar 24** | The Monetary Model Pt. 1 | 0324-monetary-pt1-ws | 0-20 pts |
+| **Wed, Mar 26** | The Monetary Model Pt. 2 | 0326-monetary-pt2-ws | 0-20 pts |
+
+---
+
+## Week 10: Aggregate Demand and Supply
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Mar 31** | The Dynamic AD/AS Model Pt. 1 | 0331-adas-pt1-ws | 0-20 pts |
+| **Wed, Apr 2** | The Dynamic AD/AS Model Pt. 2 | 0402-adas-pt2-ws | 0-20 pts |
+
+---
+
+## Week 11: Comparing Theories
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Apr 7** | A Game of Theories | 0407-theories-ws | 0-20 pts |
+| **Wed, Apr 9** | Economic Schools in Context | 0409-context-ws | 0-20 pts |
+
+---
+
+## Week 12: Capitalism and Markets
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Apr 14** | Free Markets & Capitalism Pt. 1 | 0414-capitalism-pt1-ws | 0-20 pts |
+| **Wed, Apr 16** | Free Markets & Capitalism Pt. 2 | 0416-capitalism-pt2-ws | 0-20 pts |
+
+---
+
+## Week 13: Policy & Applications
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Apr 21** | Policy Applications Pt. 1 | 0421-policy-pt1-ws | 0-20 pts |
+| **Wed, Apr 23** | Policy Applications Pt. 2 | 0423-policy-pt2-ws | 0-20 pts |
+
+---
+
+## Week 14: Project Work
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, Apr 28** | *Let's Play Policy* Project Workshop | Group Work Session | — |
+| **Wed, Apr 30** | *Let's Play Policy* Project Workshop | Group Presentations Begin | — |
+
+---
+
+## Week 15: Project Presentations
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, May 5** | *Let's Play Policy* Project Presentations | Presentations Continue | — |
+| **Wed, May 7** | *Let's Play Policy* Project Presentations | Final Presentations | 0-200 pts |
+
+---
+
+## Week 16: Review and Wrap-up
+
+| Date | Topic | Activities | Assessment |
+|------|-------|-----------|------------|
+| **Mon, May 12** | Course Review & Reflection | Class Discussion | — |
+| **Wed, May 14** | **Final Class** | Celebration & Final Reflections | — |
+
+---
+
+## Assessment Summary
+
+| Assessment Type | Count | Points Each | Total Points |
+|-----------------|-------|------------|--------------|
+| Class Worksheets | 20 | 20 | 400 |
+| Experiments | 2 | 50 | 100 |
+| Notebook | 1 | 100 | 100 |
+| Semester Project | 1 | 200 | 200 |
+| **TOTAL** | — | — | **800** |
+
+---
+
+## Important Dates
+
+- **Classes Begin:** Wednesday, January 22, 2026
+- **Spring Break:** March 15-23, 2026
+- **Final Day of Classes:** Wednesday, May 14, 2026
+- **Project Presentations:** May 5-7, 2026
+
+## Notes
+
+- All class worksheets should be named: `MMDD-topic-ws.qmd`
+- Submit all worksheets via [course management system]
+- Notebook entries should be reflective and ongoing throughout the semester
+- Project presentations are mandatory for all students

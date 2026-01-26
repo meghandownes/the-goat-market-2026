@@ -1,0 +1,169 @@
+---
+title: "ECON 2120: Principles of Microeconomics"
+subtitle: "Understanding Individual Consumers, Firms, and Markets"
+sidebar: econ2120
+---
+
+# ECON 2120: Principles of Microeconomics
+
+## Course Overview
+
+This course introduces the economic principles governing individual consumers, firms, and markets. You'll learn how supply and demand determine prices, how consumers make decisions, why firms behave the way they do, and how different market structures affect competition and pricing. These concepts form the foundation for understanding how economies allocate resources and create value.
+
+### Learning Objectives
+
+By the end of this course, you will be able to:
+
+- Apply supply and demand analysis to real markets
+- Understand consumer preferences and utility maximization
+- Analyze firm behavior and profit maximization
+- Evaluate market structures and competitive strategies
+- Calculate elasticity and understand its economic implications
+- Apply microeconomic principles to current business and policy decisions
+
+---
+
+## Course Information
+
+### Meeting Times & Locations
+
+This course is offered in two sections:
+
+#### Section M05 (Tuesdays & Thursdays, Morning)
+
+| Element | Details |
+|---------|---------|
+| **Course Code** | ECON 2120G - M05 |
+| **Credits** | 3 |
+| **Format** | Face-to-Face |
+| **Location** | DOM16 |
+| **Meeting Times** | Tuesdays & Thursdays, 10:30 AM - 11:45 AM |
+
+#### Section M02 (Tuesdays & Thursdays, Afternoon)
+
+| Element | Details |
+|---------|---------|
+| **Course Code** | ECON 2120G - M02 |
+| **Credits** | 3 |
+| **Format** | Face-to-Face |
+| **Location** | DOM16 |
+| **Meeting Times** | Tuesdays & Thursdays, 12:00 PM - 1:15 PM |
+
+### Common Information for Both Sections
+
+| Element | Details |
+|---------|---------|
+| **Semester** | Spring 2026 |
+| **Duration** | January 21 - May 8, 2026 (16 weeks) |
+| **Prerequisites** | None |
+| **Instructor** | Dr. Meghan Downes |
+
+### Instructor Contact
+
+**Dr. Meghan Downes**  
+College Professor  
+Economics, Applied Statistics, and International Business  
+College of Business, New Mexico State University
+
+- **Email:** cmdownes@nmsu.edu
+- **Office Phone:** 575.646.3295
+- **Cell Phone:** 575.249.6497
+- **Office:** DOM224
+
+### Important Dates
+
+- **Classes Begin:** January 21, 2026
+- **MLK Holiday:** January 20, 2026 (no class)
+- **Spring Break:** March 16-22, 2026
+- **Classes End:** May 8, 2026
+- **Final Grades Due:** May 16, 2026
+
+---
+
+## Course Materials & Resources
+
+### Textbook
+*Details coming soon - see Canvas for required reading*
+
+### Course Documents
+
+- [Syllabus](syllabus.qmd) - Full course policies and requirements
+- [Schedule](schedule.qmd) - Weekly topics, readings, and assignment dates
+- [Resources](resources.qmd) - Additional readings and support materials
+
+---
+
+## Interactive Learning Tools
+
+### Supply & Demand Visualizer
+Create your own supply and demand curves and watch how shifts in supply or demand affect equilibrium price and quantity. Ideal for understanding market behavior.
+
+[Open Interactive Tool →](https://your-username.shinyapps.io/econ2120-supply-demand/){.btn .btn-primary target="_blank"}
+
+### Elasticity Calculator
+Calculate price elasticity, income elasticity, and cross-price elasticity for different goods. Understand how consumers respond to price changes.
+
+[Open Interactive Tool →](https://your-username.shinyapps.io/econ2120-elasticity-calc/){.btn .btn-primary target="_blank"}
+
+### Consumer Choice Simulator
+Explore consumer preferences, utility maximization, and budget constraints. See how income and price changes affect consumer decisions.
+
+[Open Interactive Tool →](https://your-username.shinyapps.io/econ2120-consumer-choice/){.btn .btn-primary target="_blank"}
+
+### Market Equilibrium Explorer
+Analyze different market structures (perfect competition, monopoly, oligopoly) and understand how firms set prices and quantities.
+
+[Open Interactive Tool →](https://your-username.shinyapps.io/econ2120-market-equilibrium/){.btn .btn-primary target="_blank"}
+
+---
+
+## Practice & Engagement
+
+### Problem Sets
+
+Practice problems for each module help reinforce key concepts and prepare you for exams. Work through these at your own pace.
+
+[View Problem Sets →](practice.qmd){.btn .btn-outline-primary}
+
+### Anonymous Polls & Surveys
+
+Participate in class polls and learning surveys (no names collected, 100% anonymous). Your feedback helps shape the course.
+
+[Take a Poll →](practice.qmd){.btn .btn-outline-secondary}
+
+---
+
+## How to Succeed in This Course
+
+1. **Attend class regularly** - Material moves quickly in a 75-minute format
+2. **Complete readings before class** - Be prepared to participate in discussions
+3. **Master the graphs** - Microeconomics relies heavily on visual analysis; practice drawing and interpreting graphs
+4. **Use interactive tools** - These simulations help you develop intuition about market behavior
+5. **Work practice problems** - Work through problems independently before reviewing solutions
+6. **Engage in discussion** - Learn from your classmates' perspectives
+7. **Visit office hours** - Don't wait until midterms to ask for help
+
+---
+
+## Assignment & Grade Management
+
+**📌 Important:** All assignment submissions and grade information are managed through **Canvas LMS**.
+
+- Submit all assignments through Canvas
+- Check your grades and feedback in Canvas
+- This website provides learning materials and practice tools only
+- No personal data is collected on this website
+
+---
+
+## Need Help?
+
+- **Course Questions:** Email Dr. Downes at cmdownes@nmsu.edu or visit office hours
+- **Technical Issues:** See the [Resources page](resources.qmd) for support
+- **Disability Accommodations:** Contact NMSU Student Services
+
+---
+
+<center>
+**Ready to understand markets and consumer behavior?** Start with the [Schedule](schedule.qmd) to see what's coming up this week.
+</center>

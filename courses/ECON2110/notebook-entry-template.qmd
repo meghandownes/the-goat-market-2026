@@ -1,0 +1,100 @@
+---
+title: "Economics Notebook Entry Template"
+subtitle: "ECON2110G | Principles of Macroeconomics"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+---
+
+# Economics Notebook Entry
+
+**Entry Number:** [1, 2, or 3]  
+**Date:** [Date submitted]  
+**Covering Period:** [Week X - Week Y]  
+**Student Name:** ___________________________
+
+---
+
+## Reflection Prompt
+
+[Your specific reflection prompt for this entry]
+
+---
+
+## Your Reflection
+
+[Write 500-750 words for this entry]
+
+### Key Economic Concepts
+- [Concept 1]: [Brief explanation of how it applies]
+- [Concept 2]: [Brief explanation of how it applies]
+- [Concept 3]: [Brief explanation of how it applies]
+
+### Personal Connection
+[How does this concept relate to your life, choices, or observations?]
+
+### Real-World Example
+[Find a news article, personal observation, or real-world example that illustrates this concept]
+
+**Source/Example:**
+[Include link or reference]
+
+### Reflection Questions (Choose 2-3 to address)
+- What surprised you about this concept?
+- How has learning this changed your perspective?
+- What's one way this concept applies to your future?
+- How might different people view this economic issue differently?
+- What questions do you still have?
+
+---
+
+## Citations
+
+If you reference specific course materials, readings, or external sources, cite them here.
+
+[Include 2-3 citations in APA or Chicago format]
+
+---
+
+## Grading Rubric (33 points each)
+
+| Criterion | Points | Self-Assessment | Comments |
+|-----------|--------|-----------------|----------|
+| **Depth of Reflection** | 13 | [ ] | Goes beyond surface level |
+| **Connection to Course Content** | 10 | [ ] | Clear links to concepts |
+| **Writing Quality** | 7 | [ ] | Clear, organized, well-written |
+| **Use of Examples** | 3 | [ ] | Specific, relevant examples |
+| **TOTAL** | **33** | | |
+
+---
+
+## Questions Before Submitting
+
+- [ ] Have I written 500-750 words?
+- [ ] Have I made explicit connections to course concepts?
+- [ ] Have I included at least one real-world example?
+- [ ] Have I proofread for clarity and grammar?
+- [ ] Have I included citations if I referenced sources?
+- [ ] Is my reflection genuine and thoughtful?
+
+---
+
+### Tips for Strong Reflections
+
+1. **Be Specific:** Don't just say "this was interesting." Say what was interesting and why.
+
+2. **Make Connections:** Explicitly link your observations to what we discussed in class.
+
+3. **Use Examples:** Real examples make your reflection more compelling and demonstrate deeper understanding.
+
+4. **Be Honest:** Your genuine thoughts and questions are more valuable than what you think we want to hear.
+
+5. **Show Growth:** How has your thinking evolved? What's different now that you didn't understand before?
+
+6. **Look Outward:** Economics isn't just academic—it's everywhere. Connect concepts to news, politics, business, personal finance.
+
+---
+
+**Reminder:** These reflections are for your own learning first, and for us to understand your thinking second. There's no "wrong" answer to a reflection if you've engaged genuinely with the material.
