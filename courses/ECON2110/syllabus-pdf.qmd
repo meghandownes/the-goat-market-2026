@@ -1,6 +1,6 @@
 ---
-title: "Principles of Macroeconomics"
-subtitle: "ECON2110G.M01.SP2026 -- Syllabus"
+title: "Syllabus-PDF"
+subtitle: "ECON2110G.M04.SP2026"
 author: "Dr. Meghan Downes"
 format:
   pdf:
@@ -49,8 +49,8 @@ Please email to ensure you have my time reserved and available to meet your need
 ### Course Meeting Times & Location
 
 **Format:** Face-to-Face  
-**Location:** [Classroom TBD]  
-**Meeting Times:** Mondays & Wednesdays, 10:30 AM - 11:45 AM
+**Location:** HJLC210  
+**Meeting Times:** Mondays & Wednesdays, 12:00 PM - 1:15 PM
 
 **Important Dates:**
 
@@ -94,14 +94,15 @@ The semester is organized around 15 core economic concepts:
 ## Instructor Contact
 
 **Dr. Meghan Downes**  
-College of Business  
+College of Business
+Economics, Applied Statistics, and International Business
 New Mexico State University
 
 **Email:** cmdownes@nmsu.edu  
 **Office Phone:** 575.646.3295  
 **Cell Phone:** 575.214.0365  
 **Office:** DOM224  
-**Office Hours:** BY APPOINTMENT ONLY
+**Office Hours:** BY APPOINTMENT ONLY -- Monday-Thursday 1:15-2:15 pm
 
 Please email to ensure you have my time reserved and available to meet your needs. Office hours will be conducted over Zoom or in-person.
 
@@ -111,7 +112,7 @@ Please email to ensure you have my time reserved and available to meet your need
 
 ## Course Details
 
-**Course Number:** ECON 2120G - M02  
+**Course Number:** ECON 2110G - M04  
 **Credits:** 3  
 **Semester:** Spring 2026  
 **Duration:** January 21 - May 8, 2026 (16 weeks)  
@@ -144,16 +145,9 @@ Microeconomics is the study of decision-making at the individual and firm level.
 
 ### Textbook
 
-**Modern Principles: Microeconomics** (5th Edition)  
+**Modern Principles: Macroeconomics** (6th Edition)  
 *by Tyler Cowen & Alex Tabarrok*  
 Published by: Worth Publishers
-
-**ISBNs:** 
-- 9781319329600
-- 1319329551
-- 9781319482893
-- 9781319329556
-- 9781319245405
 
 **Format Options:**
 - Print textbook
@@ -192,12 +186,11 @@ Email: 2218txt@follett.com, 2218mgr@follett.com
 
 By the end of this course, you will be able to:
 
-1. Understand fundamental economic concepts - scarcity, opportunity cost, marginal thinking, and rational decision-making
-2. Apply microeconomic principles - analyze consumer and producer behavior using supply and demand frameworks
-3. Use quantitative tools - calculate break-even points, elasticity, and profit functions to inform economic decisions
-4. Evaluate real-world situations - identify economic concepts in news, policy, and personal decisions
-5. Design economic solutions - create a market-based business solution applying microeconomic principles
-6. Think like an economist - recognize incentives, constraints, and trade-offs in everyday decisions
+1. Understand fundamental economic concepts - scarcity, opportunity cost, marginal thinking
+2. Understand interest rates
+3. Understand inflation and unemployment
+4. Apply different economic models to macroeconomic questions
+5. Understand and use growth rates
 
 ---
 
@@ -215,7 +208,7 @@ This course fulfills general education requirements and includes instruction in:
 
 This course combines synchronous class meetings with structured independent learning:
 
-- Class Sessions (T/Th): Interactive lectures, discussions, simulations, and group activities
+- Class Sessions (M/W): Interactive lectures, discussions, simulations, and group activities
 - Reading & Study: Chapter readings from textbook with guided focus questions
 - Worksheets: Apply concepts immediately after class (due same day)
 - Experiments: Hands-on economic simulations and analysis
@@ -261,29 +254,11 @@ Regardless of whether attendance is required for your course, instructors are st
 
 NMSU values diversity and the university supports cultural and religious inclusiveness. If your participation in cultural or religious observances (e.g. religious holidays, spiritual observances) conflicts with a particular class session, please notify the instructor in writing and ahead of time to be excused from class for such observances.
 
-### Exam Attendance
+### Attendance and Make-Up Work
 
-You are STRONGLY encouraged to study for and take all in-class exams. If you miss an in-class exam for ANY reason (with the exception of official university business) then that missed exam will be counted as your dropped or lowest. For any future missed exams, you will earn a zero (0) for the missed exam. THERE ARE NO MAKE-UP IN-CLASS EXAMS OR HOMEWORK ASSIGNMENTS. Also note that it is very difficult to anticipate every possible situation that may arise, so please contact me immediately if an exceptional situation arises.
+You are STRONGLY encouraged to study for and complete all in-class worksheets and activities. If you miss an in-class assignment for ANY reason you need to email the TA, provide docoumentation, and schedule a time to take a make-up worksheet. Note that it is very difficult to anticipate every possible situation that may arise, so please contact me immediately if an exceptional situation arises.
 
 ---
-
-## Late Work & Make-Up Policy
-
-### Worksheets
-- No late submissions accepted - Worksheets must be submitted by end of class
-- If you miss class, email your completed worksheet before the next class meeting
-- Excused absences (with documentation) may allow next-day submission
-
-### Profit Fish Project
-- **Proposal (March 6):** 5-point deduction per day late; maximum 3 days late
-- **Progress Report (April 10):** 5-point deduction per day late; maximum 3 days late
-- **First Draft (May 1):** 10-point deduction per day late; maximum 2 days late
-- **Final (May 8):** No extensions - must present on assigned date
-
-### Experiments
-- **Experiment 1 (Feb 20):** 5-point deduction per day late; maximum 5 days late
-- **Experiment 2 (April 3):** 5-point deduction per day late; maximum 5 days late
-- Must participate in actual experiment (cannot be made up)
 
 ### Notebook
 - Entries accepted through May 8 (end of class)
@@ -296,9 +271,8 @@ You are STRONGLY encouraged to study for and take all in-class exams. If you mis
 
 - Cowen & Tabarrok Videos: Watch assigned course videos and submit 1-page summary (5 pts each, max 10 pts)
 - Microeconomics Podcast Review: Listen to economics podcast episode and write reflection (5 pts, max 5 pts)
-- Current Events Analysis: Find a news article applying course concepts; write 1-page analysis (5 pts each, max 10 pts)
-
-Total possible extra credit: 25 points (capped at 850 total)
+- Current Events Analysis: Find a news article applying course concepts; write 1-page analysis (5 pts each, max 10 pts).
+- THESE ARE ONLY ALLOWED AFTER CONSULTATION AND APPROVAL OF DR. DOWNES
 
 ---
 
@@ -552,11 +526,8 @@ The instructor reserves the right to make changes to this syllabus as needed dur
 
 ---
 
-**Last Updated:** January 15, 2026  
-**Version:** Spring 2026 - M05 Section
+**Last Updated:** January 27, 2026  
+**Version:** Spring 2026 - M04 Section
 
 ---
 
-## Appendix: Key Dates Summary
-
-Last Updated: January 15, 2026

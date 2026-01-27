@@ -1,0 +1,78 @@
+---
+title: "Class Worksheet Template"
+subtitle: "ECON2110G | Principles of Macroeconomics"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+---
+
+# Worksheet: [Topic Name]
+
+**Date:** [2026-27-01]  
+**Class:** ECON2110G Class 2  
+**Instructor:** Dr. Meghan Downes  
+**Total Points:** 20
+
+---
+
+## Instructions
+
+- Complete all questions during class
+- Show your work for quantitative problems
+- Be prepared to discuss your answers
+- Save your completed, stamped worksheet in your notebook
+- Upload a picture of your stamped worksheet to the dropbox (ws-2)
+
+---
+
+## Question 1
+
+1. Listen to the following song: [Thrift Shop](https://youtu.be/JIciLwVexkA?si=QLGqXOL7IjpDGKOe)
+2. Imagine you are at a thrift shop with your classmate
+3. Each of you have $20 in your pocket
+4. What do buy?
+5. Why?
+
+**Your Answer:**
+
+---
+
+## Question 2
+
+Write your budget for your purchases.  
+
+**Your Answer:**
+
+
+
+---
+
+## Question 3: Reflection
+
+1. Think about all the choices you made this morning.  What motivated you? What values do think are emebedded in these choices?
+
+2. How does this relate to your thriftshop experiment?
+
+**Your Reflection:**
+
+---
+
+## Grading Rubric
+
+| Criterion | Points | Comments |
+|-----------|--------|----------|
+| Question 1 Accuracy | 6 | |
+| Question 2 Accuracy | 6 | |
+| Reflection Quality | 5 | |
+| Clarity & Organization | 3 | |
+| **TOTAL** | **20** | |
+
+---
+
+### Completed by:
+Name: _________________________  
+Date: _________________________
+
+**Remember:** Economics is everywhere. Look for connections between today's concepts and your daily life!

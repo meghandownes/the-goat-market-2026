@@ -1,0 +1,80 @@
+---
+title: "Thriftshop Part 1"
+subtitle: "ECON2110G | Class 2"
+format:
+  html:
+    toc: false
+execute:
+  echo: false
+---
+
+# Worksheet: Thrift Shop Part 1
+
+**Date:** [2026-27-01]  
+**Class:** ECON2110G Class 2  
+**Instructor:** Dr. Meghan Downes  
+**Total Points:** 20
+
+---
+
+## Instructions
+
+- Complete all questions during class
+- Show your work for quantitative problems
+- Be prepared to discuss your answers
+- Save your completed, stamped worksheet in your notebook
+- Upload a picture of your stamped worksheet to the dropbox (ws-1)
+
+---
+
+## Question 1
+
+1. Listen to the following song: [Thrift Shop](https://youtu.be/JIciLwVexkA?si=QLGqXOL7IjpDGKOe)
+2. Find a classmate with whom to complete this activity.
+
+**Write the name of your classmate here:**
+
+---
+
+## Question 2
+
+1. Head up to the NMSU bookstore.
+2. While you are walking have a lovely chat with your classmate.
+3. Take handwritten notes on your worksheet paper (with the stamp).
+4. Ask questions such as, "Where are you from?", or "What music do you like?" etc.
+5. Get to know them a bit.
+
+**Your Answer:**
+
+
+
+---
+
+## Question 3: Reflection
+
+1. You and your partner have an imaginary $20 to spend at the bookstore.
+2. You have to agree on what to purchase as the $20 is for both of you.
+3. What do you buy and why?
+4. Take a picture of you and your classmate at the bookstore.
+
+**Your Reflection:**
+
+---
+
+## Grading Rubric
+
+| Criterion | Points | Comments |
+|-----------|--------|----------|
+| Question 1 Accuracy | 6 | |
+| Question 2 Accuracy | 6 | |
+| Reflection Quality | 5 | |
+| Clarity & Organization | 3 | |
+| **TOTAL** | **20** | |
+
+---
+
+### Completed by:
+Name: _________________________  
+Date: _________________________
+
+**Remember:** Economics is everywhere. Look for connections between today's concepts and your daily life!
