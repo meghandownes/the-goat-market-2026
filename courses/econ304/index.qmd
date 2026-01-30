@@ -1,0 +1,88 @@
+---
+title: "ECON 304: Money & Banking"
+subtitle: "Understanding the Financial System and Monetary Policy"
+sidebar: econ304
+toc: false
+---
+
+## Course Overview
+
+This course provides a comprehensive introduction to monetary economics, the financial system, and the Federal Reserve's role in managing the U.S. economy. You'll explore interest rate determination, money supply mechanisms, banking systems, and how monetary policy influences economic activity.
+
+---
+
+## Quick Navigation
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 📋 Information
+- [Syllabus](information/syllabus.html)
+- [Schedule](information/schedule.html)  
+- [Resources](information/resources.html)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🎓 Learning Materials
+- [Lectures](lectures/index.qmd)
+- [Worksheets](worksheets/index.qmd)
+- [Learning Journal](learning-journal/index.qmd)
+:::
+
+:::
+
+---
+
+## Course Information
+
+| Element | Details |
+|---------|---------|
+| **Course Code** | ECON 304 - M01 |
+| **Credits** | 3 |
+| **Location** | DOM223 |
+| **Time** | Mondays & Wednesdays, 10:30 AM - 11:45 AM |
+| **Semester** | Spring 2026 |
+
+### Instructor Contact
+
+**Dr. Meghan Downes**  
+Email: cmdownes@nmsu.edu | Office: DOM224 | By Appointment
+
+---
+
+## Learning Objectives
+
+By the end of this course, you will be able to:
+
+- Understand the structure and function of the Federal Reserve System
+- Analyze interest rate determination and the term structure of interest rates
+- Explain how banks create money and the money supply process
+- Evaluate the transmission mechanisms of monetary policy
+- Assess the effectiveness of monetary policy tools
+- Apply financial economic principles to real-world banking and policy decisions
+
+---
+
+## Interactive Tools
+
+**Fed Funds Rate Explorer** | **Money Supply Tracker** | **Interest Rate Simulator**  
+[Open →](https://your-username.shinyapps.io/econ304-fed-rates/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ304-money-supply/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ304-rate-simulator/){.btn .btn-sm .btn-primary}
+
+---
+
+## How to Succeed
+
+1. **Attend class regularly** — Material moves quickly
+2. **Complete readings before class** — Come prepared
+3. **Use interactive tools** — Practice with real data
+4. **Work practice problems** — Reinforce your learning
+5. **Visit office hours** — Get help early
+
+---
+
+## Important Notes
+
+📌 **All grades and assignments are in Canvas LMS**  
+This site provides learning materials and practice tools only. No personal data is collected here.
+
+**Need help?** Email Dr. Downes or visit office hours (by appointment).

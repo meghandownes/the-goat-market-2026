@@ -1,0 +1,381 @@
+name: Build Syllabus
+
+# TRIGGER CONFIGURATION
+# ─────────────────────────────────────────────────────────────────────────────
+# When to run this workflow:
+# 1. On push to main/master (automatic syllabus rebuild on config changes)
+# 2. On schedule (weekly rebuild to catch any issues)
+# 3. On manual trigger (workflow_dispatch for testing)
+
+on:
+  push:
+    branches: [ main, master, dev ]
+    paths:
+      - 'config/**'
+      - 'data/**'
+      - 'r/**'
+      - 'templates/**'
+      - '.github/workflows/build-syllabus.yml'
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly on Monday at 6am UTC
+  workflow_dispatch:     # Allow manual trigger from GitHub Actions tab
+
+# JOB CONFIGURATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+jobs:
+  build-syllabi:
+    name: Build Course Syllabi
+    runs-on: ubuntu-latest
+    
+    # ENVIRONMENT SETUP
+    # ───────────────────────────────────────────────────────────────────────
+    strategy:
+      matrix:
+        r-version: ['4.3.0']
+    
+    steps:
+    # STEP 1: Checkout Repository
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for git info
+    
+    # STEP 2: Set up R Environment
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+      with:
+        r-version: ${{ matrix.r-version }}
+        use-public-rspm: true
+    
+    # STEP 3: Install System Dependencies
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+    
+    # STEP 4: Install Quarto
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Install Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
+      with:
+        version: latest
+    
+    # STEP 5: Install R Dependencies
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Install R Dependencies
+      run: |
+        R --slave -e "
+          packages <- c(
+            'yaml',
+            'lubridate',
+            'stringr',
+            'cli',
+            'glue',
+            'readr',
+            'dplyr',
+            'purrr',
+            'knitr',
+            'kableExtra'
+          )
+          
+          # Check which packages need installation
+          new_packages <- packages[!(packages %in% installed.packages()[,'Package'])]
+          
+          if (length(new_packages) > 0) {
+            cat('Installing:', new_packages, '\n')
+            install.packages(new_packages, repos='https://cran.rstudio.com/')
+          } else {
+            cat('All packages already installed\n')
+          }
+          
+          # Verify all packages loaded successfully
+          library(yaml)
+          library(lubridate)
+          library(stringr)
+          library(cli)
+          library(glue)
+          library(readr)
+          library(dplyr)
+          library(purrr)
+          library(knitr)
+          library(kableExtra)
+          
+          cat('All dependencies loaded successfully\n')
+        "
+    
+    # STEP 6: Validate Configuration Files
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Validate Configuration Files
+      run: |
+        R --slave -e "
+          source('r/load_config.R')
+          
+          # Find all config files
+          config_files <- list.files('config', pattern = '\\.yml\$', full.names = TRUE)
+          
+          if (length(config_files) == 0) {
+            cat('No config files found in config/ directory\n')
+            quit(status = 1)
+          }
+          
+          cat('Found', length(config_files), 'configuration files\n\n')
+          
+          # Validate each config
+          validation_results <- list()
+          failed_configs <- character(0)
+          
+          for (config_file in config_files) {
+            cat('Validating:', config_file, '...\n')
+            
+            tryCatch({
+              result <- load_course_config(config_file, verbose = TRUE, stop_on_error = FALSE)
+              
+              if (result\$status) {
+                cat('  ✓ Valid\n')
+                validation_results[[config_file]] <- TRUE
+              } else {
+                cat('  ✗ INVALID\n')
+                cat('  Errors:\n')
+                for (msg in result\$messages) {
+                  if (grepl('^✗', msg)) cat('    -', msg, '\n')
+                }
+                failed_configs <- c(failed_configs, config_file)
+                validation_results[[config_file]] <- FALSE
+              }
+            }, error = function(e) {
+              cat('  ✗ ERROR:', e\$message, '\n')
+              failed_configs <<- c(failed_configs, config_file)
+              validation_results[[config_file]] <<- FALSE
+            })
+            
+            cat('\n')
+          }
+          
+          # Summary
+          cat('VALIDATION SUMMARY\n')
+          cat('─────────────────────────────────────────────────────────────\n')
+          cat('Total configs:', length(config_files), '\n')
+          cat('Valid:', sum(unlist(validation_results)), '\n')
+          cat('Invalid:', length(failed_configs), '\n')
+          
+          if (length(failed_configs) > 0) {
+            cat('\nFailed configs:\n')
+            for (config_file in failed_configs) {
+              cat('  -', config_file, '\n')
+            }
+            quit(status = 1)
+          }
+          
+          cat('✓ All configurations valid\n')
+        "
+    
+    # STEP 7: Build Syllabi from Configs
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Build Syllabi
+      run: |
+        # Create output directory
+        mkdir -p output/syllabi
+        
+        # Find all config files and render
+        R --slave -e "
+          config_files <- list.files('config', pattern = '\\.yml\$', full.names = TRUE)
+          
+          cat('Building syllabi from', length(config_files), 'configuration files\n\n')
+          
+          for (config_file in config_files) {
+            # Extract config name for output file
+            config_name <- basename(config_file)
+            output_name <- gsub('\\.yml\$', '', config_name)
+            output_file <- glue::glue('output/syllabi/{output_name}.html')
+            
+            cat('Building:', config_file, '\n')
+            cat('  Output: ', output_file, '\n')
+            
+            # Render using quarto
+            tryCatch({
+              system(
+                glue::glue(
+                  'quarto render templates/syllabus_template.qmd ',
+                  '--execute-params config_file:{config_file} ',
+                  '--output {output_file}'
+                ),
+                wait = TRUE
+              )
+              cat('  ✓ Success\n\n')
+            }, error = function(e) {
+              cat('  ✗ Error:', e\$message, '\n\n')
+            })
+          }
+        "
+    
+    # STEP 8: Generate Index Page
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Generate Index Page
+      run: |
+        R --slave -e "
+          # Generate HTML index of all syllabi
+          
+          syllabi_files <- list.files('output/syllabi', pattern = '\\.html\$', full.names = FALSE)
+          
+          if (length(syllabi_files) == 0) {
+            cat('No syllabi generated. Exiting.\n')
+            quit(status = 1)
+          }
+          
+          # Extract friendly names from filenames
+          syllabi_names <- gsub('\\.html\$', '', syllabi_files)
+          
+          # Build HTML index
+          html_content <- '
+          <!DOCTYPE html>
+          <html lang=\"en\">
+          <head>
+              <meta charset=\"UTF-8\">
+              <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+              <title>Course Syllabi</title>
+              <style>
+                  body { font-family: Arial, sans-serif; margin: 2rem; }
+                  h1 { color: #333; }
+                  .syllabus-list { list-style-type: none; padding: 0; }
+                  .syllabus-item { margin: 1rem 0; }
+                  .syllabus-link { color: #0066cc; text-decoration: none; font-weight: bold; }
+                  .syllabus-link:hover { text-decoration: underline; }
+                  .build-info { margin-top: 2rem; color: #666; font-size: 0.9rem; }
+              </style>
+          </head>
+          <body>
+              <h1>Course Syllabi</h1>
+              <p>Generated on " %+% format(Sys.time(), '%Y-%m-%d %H:%M UTC') %+% "</p>
+              <ul class=\"syllabus-list\">
+          '
+          
+          for (i in seq_along(syllabi_names)) {
+            html_content <- html_content %+% '
+              <li class=\"syllabus-item\">
+                  <a href=\"syllabi/" %+% syllabi_files[i] %+% '\" class=\"syllabus-link\">
+                      ' %+% syllabi_names[i] %+% '
+                  </a>
+              </li>
+            '
+          }
+          
+          html_content <- html_content %+% '
+              </ul>
+              <div class=\"build-info\">
+                  <p>Generated automatically by GitHub Actions</p>
+              </div>
+          </body>
+          </html>
+          '
+          
+          # Write index file
+          writeLines(html_content, 'output/index.html')
+          cat('✓ Generated index page with', length(syllabi_files), 'syllabi\n')
+        "
+    
+    # STEP 9: Upload Build Artifacts
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Upload Build Artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: syllabi-html
+        path: output/
+        retention-days: 30
+    
+    # STEP 10: Deploy to GitHub Pages
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./output
+        cname: ''  # Set to custom domain if needed (e.g., syllabi.example.edu)
+        force_orphan: false
+    
+    # STEP 11: Generate Build Report
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Generate Build Report
+      if: always()
+      run: |
+        cat > build_report.txt << 'EOF'
+        ═════════════════════════════════════════════════════════════════
+        Syllabus Build Report
+        ═════════════════════════════════════════════════════════════════
+        
+        Timestamp: $(date -u '+%Y-%m-%d %H:%M UTC')
+        Workflow: Build Syllabi
+        Repository: ${{ github.repository }}
+        Ref: ${{ github.ref }}
+        Commit: ${{ github.sha }}
+        
+        ═════════════════════════════════════════════════════════════════
+        EOF
+        cat build_report.txt
+    
+    # STEP 12: Notify on Failure (Optional)
+    # ─────────────────────────────────────────────────────────────────────
+    - name: Notify on Failure
+      if: failure()
+      run: |
+        echo "❌ Syllabus build failed"
+        echo "Check the logs above for details"
+        exit 1
+
+# DEPLOYMENT CONFIGURATION
+# ─────────────────────────────────────────────────────────────────────────────
+# GitHub Pages deployment:
+# - Requires: Settings → Pages → Source set to 'gh-pages' branch
+# - Output: https://username.github.io/repository
+# - Deployment history viewable in Settings → Deployments
+# 
+# For custom domain:
+# - Add custom domain to CNAME variable above
+# - Update repository Settings → Pages → Custom domain
+
+# MANUAL TESTING
+# ─────────────────────────────────────────────────────────────────────────────
+# Run workflow manually from GitHub Actions tab:
+# 1. Go to Actions tab
+# 2. Select "Build Syllabus" workflow
+# 3. Click "Run workflow" button
+# 4. Select branch and click "Run workflow"
+# 
+# Command line testing:
+#   # Validate single config
+#   R --slave -e "source('r/load_config.R'); load_course_config('config/YOUR_CONFIG.yml')"
+#   
+#   # Render single syllabus
+#   quarto render templates/syllabus_template.qmd \
+#     --execute-params config_file:config/YOUR_CONFIG.yml \
+#     --output output/YOUR_SYLLABUS.html
+
+# TROUBLESHOOTING
+# ─────────────────────────────────────────────────────────────────────────────
+# Common issues:
+#
+# 1. "quarto command not found"
+#    - Quarto must be installed in workflow
+#    - Check: quarto-dev/quarto-actions/setup@v2 step
+#
+# 2. "R package X not found"
+#    - Add package to install.packages() list in "Install R Dependencies" step
+#
+# 3. "Config file not found"
+#    - Verify config files are in config/ directory
+#    - Check file naming convention: COURSE###-SEMESTER-SECTION.yml
+#
+# 4. "Quarto render fails"
+#    - Check syllabus_template.qmd for syntax errors
+#    - Verify config files pass validation step
+#    - Check R helper functions are working (source commands)
+#
+# 5. "GitHub Pages not updating"
+#    - Verify gh-pages branch exists
+#    - Check Settings → Pages configuration
+#    - Wait a few minutes for GitHub Pages to rebuild

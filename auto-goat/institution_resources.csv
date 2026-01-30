@@ -1,0 +1,9 @@
+resource_type,resource_name,description,website,phone,email,location
+tutoring,Campus Tutoring Services,Free tutoring for NMSU courses,https://campustutoring.nmsu.edu/,N/A,N/A,Multiple locations
+tutoring,Math Tutoring Center,Free math help Pre-Algebra through Calculus,https://math.nmsu.edu/math-tutoring-page.html,N/A,N/A,Math Department
+writing,Writing Center,One-on-one writing consultations,https://writingcenter.nmsu.edu/,N/A,N/A,Corbett Center
+library,Zuhl & Branson Libraries,Research support and library resources,lib.nmsu.edu,N/A,N/A,Main Campus
+health,Student Health Center,Medical and mental health services,https://wellness.nmsu.edu/,575-646-1512,N/A,Corbett Center
+counseling,TimelyCare,24/7 virtual mental health and medical support,https://timelycare.nmsu.edu/,N/A,N/A,Online
+financial,Office of Financial Aid,Financial aid and scholarship information,https://onestop.nmsu.edu/,575-646-6678,onestop@nmsu.edu,Corbett Center
+support,Student Support Services (SAS),Help with hardships and academic concerns,https://studentlife.nmsu.edu/studentassistanceservices/,575-646-1722,saservices@nmsu.edu,Corbett Center Room 207

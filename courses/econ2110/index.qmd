@@ -1,0 +1,88 @@
+---
+title: "ECON 2110: Principles of Macroeconomics"
+subtitle: "Understanding the Economy as a Whole"
+sidebar: econ2110
+toc: false
+---
+
+## Course Overview
+
+This course introduces you to macroeconomic principles and policy. You'll examine the economy as a whole—exploring how national income is determined, what causes inflation and unemployment, how governments use fiscal policy to manage the economy, and how central banks use monetary policy to achieve economic stability.
+
+---
+
+## Quick Navigation
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 📋 Information
+- [Syllabus](information/syllabus.html)
+- [Schedule](information/schedule.html)  
+- [Resources](information/resources.html)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🎓 Learning Materials
+- [Lectures](lectures/index.qmd)
+- [Worksheets](worksheets/index.qmd)
+- [Learning Journal](learning-journal/index.qmd)
+:::
+
+:::
+
+---
+
+## Course Information
+
+| Element | Details |
+|---------|---------|
+| **Course Code** | ECON 2110G - M04 |
+| **Credits** | 3 |
+| **Location** | HJLC210 |
+| **Time** | Mondays & Wednesdays, 12:00 PM - 1:15 PM |
+| **Semester** | Spring 2026 |
+
+### Instructor Contact
+
+**Dr. Meghan Downes**  
+Email: cmdownes@nmsu.edu | Office: DOM224 | By Appointment
+
+---
+
+## Learning Objectives
+
+By the end of this course, you will be able to:
+
+- Understand how GDP is measured and what it tells us about economic health
+- Explain the relationship between inflation, unemployment, and economic growth
+- Analyze fiscal policy tools and their economic effects
+- Evaluate monetary policy and the Federal Reserve's role
+- Understand international economic relationships and exchange rates
+- Apply macroeconomic analysis to current economic events
+
+---
+
+## Interactive Tools
+
+**GDP Calculator** | **Inflation Explorer** | **Labor Market Simulator**  
+[Open →](https://your-username.shinyapps.io/econ2110-gdp-calc/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ2110-inflation-explorer/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ2110-labor-simulator/){.btn .btn-sm .btn-primary}
+
+---
+
+## How to Succeed
+
+1. **Attend class regularly** — Material moves quickly
+2. **Complete readings before class** — Come prepared
+3. **Use interactive tools** — Practice with real data
+4. **Work practice problems** — Reinforce your learning
+5. **Visit office hours** — Get help early
+
+---
+
+## Important Notes
+
+📌 **All grades and assignments are in Canvas LMS**  
+This site provides learning materials and practice tools only. No personal data is collected here.
+
+**Need help?** Email Dr. Downes or visit office hours (by appointment).

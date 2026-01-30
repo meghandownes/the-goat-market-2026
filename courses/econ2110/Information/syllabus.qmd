@@ -1,0 +1,520 @@
+---
+title: "Syllabus"
+subtitle: "ECON2110G.M04.SP2026"
+author: "Dr. Meghan Downes"
+format:
+  html:
+    toc: true
+---
+
+# Course Information
+
+## Instructor Contact
+
+**Dr. Meghan Downes**  
+College of Business  
+New Mexico State University
+
+**Email:** cmdownes@nmsu.edu  
+**Office Phone:** 575.646.3295  
+**Cell Phone:** 575.214.0365  
+**Office:** DOM224  
+**Office Hours:** BY APPOINTMENT ONLY
+
+Please email to ensure you have my time reserved and available to meet your needs. Office hours will be conducted over Zoom or in-person.
+
+**Communication Response Time:** I will typically respond to communications within 24 hours.
+
+---
+
+## Course Details
+
+**Course Number:** ECON 2110G - M01  
+**Credits:** 4  
+**Semester:** Spring 2026  
+**Duration:** January 21 - May 8, 2026 (16 weeks)  
+**Prerequisites:** None
+
+### Course Meeting Times & Location
+
+**Format:** Face-to-Face  
+**Location:** HJLC210  
+**Meeting Times:** Mondays & Wednesdays, 12:00 PM - 1:15 PM
+
+**Important Dates:**
+
+- Classes Begin: January 21, 2026
+- MLK Holiday: January 20, 2026
+- Spring Break: March 16-22, 2026
+- Classes End: May 8, 2026
+- Final Grades Due: May 16, 2026
+
+---
+
+## Course Description
+
+This course introduces students to the principles of macroeconomics, including analysis of aggregate demand and supply, growth models, monetary policy, and fiscal policy. Through a combination of traditional lectures, interactive worksheets, hands-on experiments, and a capstone project, students will develop an understanding of how macroeconomic principles shape real-world policy decisions. The course emphasizes critical thinking, quantitative literacy, and practical application of economic theory.
+
+Macroeconomics is the study of decision-making at the economy-wide level. How do economies grow? What determines price levels and inflation? How do governments and central banks influence economic outcomes? This course explores these big questions through 15 fundamental economic concepts.
+
+
+# Course Schedule Overview
+
+The semester is organized around 15 core economic concepts:
+
+1. Treasure Hunt & Scavenger Hunt
+2. Scarcity & Limits
+3. Opportunity Cost & Trade-Offs
+4. Sunk Cost Fallacy
+5. Marginal Thinking
+6. Working with Units
+7. Math in Economics
+8. Measuring Wealth & Well-Being (GDP)
+9. The Solow Growth Model
+10. The Keynesian Model
+11. The Monetary Model
+12. The Dynamic AD/AS Model
+13. A Game of Theories
+14. Free Markets & Capitalism
+15. Let's Play Policy (Project)
+
+# Course Information
+
+## Instructor Contact
+
+**Dr. Meghan Downes**  
+College of Business
+Economics, Applied Statistics, and International Business
+New Mexico State University
+
+**Email:** cmdownes@nmsu.edu  
+**Office Phone:** 575.646.3295  
+**Cell Phone:** 575.214.0365  
+**Office:** DOM224  
+**Office Hours:** BY APPOINTMENT ONLY -- Monday-Thursday 1:15-2:15 pm
+
+Please email to ensure you have my time reserved and available to meet your needs. Office hours will be conducted over Zoom or in-person.
+
+**Communication Response Time:** I will typically respond to communications within 24 hours.
+
+---
+
+## Course Details
+
+**Course Number:** ECON 2110G - M04  
+**Credits:** 3  
+**Semester:** Spring 2026  
+**Duration:** January 21 - May 8, 2026 (16 weeks)  
+**Prerequisites:** None
+
+### Course Meeting Times & Location
+
+**Format:** Face-to-Face  
+**Location:** Hardman Jacobs Learning Center 210  
+**Meeting Times:** Mondays & Wednesdays, 12:00 PM - 1:15 PM
+
+**Important Dates:**
+- Classes Begin: January 21, 2026
+- MLK Holiday: January 20, 2026
+- Spring Break: March 16-22, 2026
+- Classes End: May 8, 2026
+- Final Grades Due: May 16, 2026
+
+---
+
+## Course Description
+
+This course provides a comprehensive overview of microeconomics—the study of how individuals and firms make decisions, how markets work, and how prices coordinate economic activity. We explore the nature of scarcity, trade-offs, and rational decision-making, along with the fundamental principles that shape our economic world.
+
+Microeconomics is the study of decision-making at the individual and firm level. How do consumers choose what to buy? How do firms decide what to produce? How do markets bring these decisions together? This course explores the big questions through 15 fundamental economic concepts.
+
+---
+
+## Required Materials
+
+### Textbook
+
+**Modern Principles: Macroeconomics** (6th Edition)  
+*by Tyler Cowen & Alex Tabarrok*  
+Published by: Worth Publishers
+
+**Format Options:**
+- Print textbook
+- eBook (Brytewave App or other digital formats)
+- Rental copies available
+
+### Follett ACCESS Program
+
+Required course materials are provided digitally through the Follett Access program at a fixed rate, which is billed directly to your student account when you register for the course. These materials will be available via Canvas on the first day of class. The textbooks can be accessed digitally on the first day through the Follett My Materials link and the Course Materials module.
+
+By enrolling in this course, you have been automatically enrolled in the NMSU Integrated Access Program. This means that your required course materials are being provided to you automatically for this class. The charge for this material has been added to your MyNMSU student account. If you have further questions about Follett Access at NMSU, please reach out to the NMSU Bookstore.
+
+**Your Opt-out deadline: 2/6/2026** 
+
+The opt-out portal closes on: 2/6/2026
+
+**Opt-out Portal Link:** https://accessportal.follett.com/2218
+
+If you decide not to participate, you can opt out of this program once the opt-out portal opens through the above deadline. Once you opt out, you will be responsible for purchasing the materials listed below on your own. A link to the opt-out portal has been sent to your school mail account from noreply@follett.com and can also be found above. 
+
+If you have further questions, please email bookstore@nmsu.edu 
+
+**Follett Access Support (NMSU Bookstore – Las Cruces/Main Campus)**  
+Email: 2218txt@follett.com, 2218mgr@follett.com
+
+### Required Materials
+
+- 3-Ring Binder
+- 3"x5" note cards
+- 4 color writing instruments
+- A dumb calculator (NO BLUETOOTH or WI-FI Connectivity, No Programming)
+
+---
+
+## Course Learning Outcomes
+
+By the end of this course, you will be able to:
+
+1. Understand fundamental economic concepts - scarcity, opportunity cost, marginal thinking
+2. Understand interest rates
+3. Understand inflation and unemployment
+4. Apply different economic models to macroeconomic questions
+5. Understand and use growth rates
+
+---
+
+## General Education & Essential Skills
+
+This course fulfills general education requirements and includes instruction in:
+
+- Communication - Written and verbal expression of economic concepts
+- Critical Thinking - Analyzing economic problems and policy implications
+- Information & Digital Literacy - Working with data, spreadsheets, and economic models
+
+---
+
+## Course Organization & Structure
+
+This course combines synchronous class meetings with structured independent learning:
+
+- Class Sessions (M/W): Interactive lectures, discussions, simulations, and group activities
+- Reading & Study: Chapter readings from textbook with guided focus questions
+- Worksheets: Apply concepts immediately after class (due same day)
+- Experiments: Hands-on economic simulations and analysis
+- Profit Fish Project: Semester-long group project applying all course concepts
+- Economic Notebook: Weekly reflection connecting concepts to personal experience
+
+### Engaged Hours
+
+This 3-credit course is designed for approximately 135+ engaged hours distributed across the semester.  See Canvas for detailed week-by-week breakdown.
+
+# Course Policies & Resources
+
+## Academic Integrity
+
+All work must be your own (or your group's in the case of Profit Fish).
+
+Acceptable: Collaborating on understanding; discussing concepts; studying together
+
+Not acceptable: Copying worksheets; submitting identical work; paraphrasing without understanding
+
+**Consequences of academic dishonesty:**
+
+- First offense: 0 on assignment + mandatory meeting
+- Second offense: F in course + referral to Dean of Students
+
+For more information, see the NMSU Student Handbook at http://studenthandbook.nmsu.edu/
+
+---
+
+## Class Attendance
+
+According to NMSU policy:
+
+"Students making satisfactory progress in their classes will be excused from classes when they are representing New Mexico State University at a university-sponsored event (e.g., ASNMSU President attending a legislative session, student-athletes participating in NMSU athletic events, students attending educational field trips or conferences). Authorized absences do not relieve the student of class responsibilities. Prior written notice of the authorized absence will be provided to the instructor by the sponsoring department."
+
+### Federal Financial Aid Compliance
+
+Regardless of whether attendance is required for your course, instructors are still responsible for tracking student attendance/activity to meet federal financial aid requirements. Specifically, faculty must be able to report a student's last date of attendance or academic activity if they stop participating or do not complete the course.
+
+### Religious Observances and Authorized Absences
+
+NMSU values diversity and the university supports cultural and religious inclusiveness. If your participation in cultural or religious observances (e.g. religious holidays, spiritual observances) conflicts with a particular class session, please notify the instructor in writing and ahead of time to be excused from class for such observances.
+
+### Attendance and Make-Up Work
+
+You are STRONGLY encouraged to study for and complete all in-class worksheets and activities. If you miss an in-class assignment for ANY reason you need to email the TA, provide docoumentation, and schedule a time to take a make-up worksheet. Note that it is very difficult to anticipate every possible situation that may arise, so please contact me immediately if an exceptional situation arises.
+
+---
+
+### Notebook
+- Entries accepted through May 8 (end of class)
+- Weekly entries should be submitted Friday (during class or by 11:59 PM if digital)
+- Late entries deduct 2 points per entry submitted late
+
+---
+
+## Extra Credit Opportunities
+
+- Cowen & Tabarrok Videos: Watch assigned course videos and submit 1-page summary (5 pts each, max 10 pts)
+- Microeconomics Podcast Review: Listen to economics podcast episode and write reflection (5 pts, max 5 pts)
+- Current Events Analysis: Find a news article applying course concepts; write 1-page analysis (5 pts each, max 10 pts).
+- THESE ARE ONLY ALLOWED AFTER CONSULTATION AND APPROVAL OF DR. DOWNES
+
+---
+
+## Discrimination & Disability Accommodations
+
+NMSU Information Regarding Disability Accommodations and Discrimination
+
+Accessibility information including disability accommodation and discrimination statements can be found on the NMSU Syllabus Student Resources website.
+
+Section 504 of the Rehabilitation Act of 1973 and the Americans with Disabilities Act Amendments Act (ADA) covers issues relating to disability and accommodations. If a student has questions or needs an accommodation in the classroom (all medical information is treated confidentially), contact:
+
+### Disability Access Services
+
+Corbett Center Student Union Room 204
+
+575-646-6840
+
+das@nmsu.edu
+
+New Mexico State University, in compliance with applicable laws and in furtherance of its commitment to fostering an environment that welcomes and embraces diversity, does not discriminate on the basis of age, ancestry, color, disability, gender identify, genetic information, national origin, race, religion, retaliation, serious medical condition, sex (including pregnancy), sexual orientation, spousal affiliation, or protected veteran status in its programs and activities, including employment, admissions, and educational programs and activities. You may submit a report online at https://equity.nmsu.edu. If you have an urgent concern, please contact the Office of Institutional Equity at 575-646-3635.
+
+Title IX prohibits sex harassment, sexual assault, dating and domestic violence, stalking and retaliation. For more information on discrimination or Title IX, or to file a complaint contact:
+
+Office of Institutional Equity (OIE)
+O'Loughlin House
+1130 University Avenue
+
+Phone: 575-646-3635
+Email: equity@nmsu.edu
+https://equity.nmsu.edu
+
+---
+
+## Student Resources
+
+- Academic Support: NMSU Writing Center, Tutoring Services
+- Counseling & Mental Health: Student Health Center, Counseling Services
+- Financial Aid: Office of Financial Aid
+- Library Resources: Zuhl Memorial Library
+
+Please visit the Syllabus Student Resources & Policy website for university policies and student services, including Discrimination and Disability Accommodation, academic misconduct, student services, final exam schedule, grading policies and more.
+
+### Campus Tutoring
+
+Campus Tutoring Services offers NMSU undergraduate students free, accessible and convenient options to supplement their academic experience for our most in-demand courses on campus. Campus Tutoring offers individual and small group tutoring. Visit https://campustutoring.nmsu.edu/.
+
+### Math Tutoring Center
+
+The Math Tutoring Center offers NMSU undergraduate students free help for math courses ranging from Pre-Algebra through Calculus, including Statistics. Tutoring is provided by math graduate students and undergraduates from a variety of STEM disciplines. They currently offer both in person and online help. For more information, including hours, please visit https://math.nmsu.edu/math-tutoring-page.html
+
+### Writing Center
+
+The Writing Center offers free services to all NMSU students through one-on-one consultations at any stage in the writing process, from understanding assignment directions to revising final drafts. Consultants advise students on aspects of proofreading and editing, but do not provide editing services. Information about the Writing Center is available at https://writingcenter.nmsu.edu/.
+
+### Student Accessibility Services (SAS)
+
+If you have a disability that may impact your learning or participation, please contact SAS as early as possible. They will work with you and your instructor to coordinate reasonable accommodation.
+
+Location: Corbett Center, Room 208
+Email: sas@nmsu.edu
+https://studentlife.nmsu.edu/disability-access-services1/index.html
+
+### Library Research Support
+
+NMSU librarians offer help with finding, evaluating, and citing sources. Research assistance is available via chat, email, or in person.
+
+Zuhl and Branson Libraries
+lib.nmsu.edu
+
+### Student-Support Services
+
+Aggie One-Stop is a student service center designed to help both undergraduate and graduate students manage the business of going to college, as well as resources to connect with university departments. Information and answers about admissions, financial aid, registration, bill payment and student records, advising, housing, parking, and health & wellness can all be found in a single location.
+
+Website: https://onestop.nmsu.edu
+Phone: 575-646-NMSU (575-646-6678)
+Email: onestop@nmsu.edu
+
+### Military & Veteran Services
+
+The Office of Military and Veterans Programs provides services to current and former service members. The office can be reached at:
+
+575-646-4524
+mvp@nmsu.edu
+Website: https://mvp.nmsu.edu/
+Location: Corbett Center Student Union, Room 244
+Hours: Monday-Friday, 8am-5pm
+
+### Student Support Services (SAS)
+
+SAS helps NMSU students navigate challenges like financial hardships, academic concerns, and personal difficulties. We offer individualized support, connect students to campus and community resources—including Aggie Cupboard for food assistance (aggiecupboard.nmsu.edu)—and assist with understanding university policies, appeals, and processes.
+
+Visit: Corbett Center, Room 207
+Call: 575-646-1722 | Email: saservices@nmsu.edu
+Learn more: https://studentlife.nmsu.edu/studentassistanceservices/index.html
+
+### TimelyCare
+
+Enhance your well-being with TimelyCare, NMSU's free virtual health service available 24/7/365. Access medical and mental health support anytime, anywhere in the U.S. Services include on-demand medical care, emotional support, scheduled counseling (12 visits per year), health coaching, and more. To get started, visit timelycare.com/nmsu or download the TimelyCare app from your app store, and register with your NMSU email. For more information, visit timelycare.nmsu.edu.
+
+Note: TimelyCare is available to all enrolled Main-Campus and Global NMSU students. No insurance is required to access these services.
+
+---
+
+## Technical Support
+
+The ICT Customer Service Center is equipped to deal with all of your information technology (IT) and telecommunications needs at NMSU. The ICT Customer Service Center hours of operation are from 8:00 am until 5:00 pm Monday through Friday Mountain Time. Please feel free to contact them on 646-1840 or via e-mail at helpdesk@nmsu.edu.
+
+You can also go to the Student Technology Help web page and Student Resources located on the Canvas web page for additional information on Canvas.
+
+### Academic Technology Support
+
+Canvas is the official Learning Management System (LMS) used at NMSU to access course materials, submit assignments, view grades, and participate in discussions. Support for Canvas is provided by Academic Technology. Canvas support is available Monday – Friday from 8 AM – 5 PM. You can contact Canvas Support by calling (575) 646-5125 or email them through learning@nmsu.edu. You can also go to the Student and Faculty Help located on the Canvas for additional information on Canvas live support via Zoom.
+
+---
+
+## Privacy Policies
+
+NMSU takes protecting and honoring your privacy very seriously. Please note that several software and technology materials can be used in a course. Make sure to Review.
+
+---
+
+## Campus Emergency Information
+
+**Campus Emergency Numbers**
+
+1. NMSU Police Department: 575-646-3311 | www.nmsupolice.com
+2. NMSU Aggie Health and Wellness (medical and counseling Services: 575-646-1512 | https://wellness.nmsu.edu
+3. NMSU Dean of Students: 575-646-1722
+4. For any On-Campus Emergencies call 911.
+
+### Emergency Evacuation Plan
+
+Information on emergency evacuation can be found on the NMSU Syllabus Student Resources website.
+
+---
+
+## University Grading System
+
+The University Grading System is outlined in ARP 4.55 (https://arp.nmsu.edu/chapter-4/4-55.html). Instructors can decide if their course is graded using fractional grading (pluses and minuses). At the request of the student, the instructor will provide information on progress in the course prior to the last day to drop a course.
+
+### Incomplete Grades
+
+Under university policy, incompletes may be given only if a student has a passing grade at midsemester (the last day to withdraw from a class) and is precluded from successful completion of the second half of the course by a documented illness, documented death, family crisis or other similar circumstances beyond the student's control. Visit ARP 4.55 Part 2, Letter D (https://arp.nmsu.edu/chapter-4/4-55.html) for more information.
+
+### S/U Grading
+
+Students enrolling under the S/U grading option must earn a specific grade as designated by the instructor to receive an "S". Students must elect the grading option prior to the last day to add a class. See ARP 4.55 Part 2 (https://arp.nmsu.edu/chapter-4/4-55.html) for more information.
+
+### 6-Week Early Performance Grades
+
+Lower division courses are required to submit grades for work completed as of the sixth (6th) Friday of the semester. These grades will be used to facilitate opportunities for students to address performance issues. This is optional for upper division courses. (ARP 4.55, Part 5 https://arp.nmsu.edu/chapter-4/4-55.html).
+
+---
+
+## Academic Misconduct
+
+The Student Code of Conduct defines academic misconduct, non-academic misconduct and the consequences or penalties for each. The Student Code of Conduct is available in the NMSU Student Handbook online http://studenthandbook.nmsu.edu/ Academic misconduct is explained at: https://studentlife.nmsu.edu/academic_integrity/academic_misconduct.html Academic misconduct is governed by ARP Policy 5.10. (https://arp.nmsu.edu/chapter-5/5-10.html)
+
+---
+
+## Plagiarism Statement
+
+Plagiarism is using another person's work without acknowledgment, making it appear to be one's own. Intentional and unintentional instances of plagiarism are considered instances of academic misconduct and are subject to disciplinary action such as failure on the assignment, failure of the course or dismissal from the university. The NMSU Library has more information and help on how to avoid plagiarism at https://nmsu.libguides.com/plagiarism.
+
+---
+
+## Academic & Student Social Code of Conduct - Academic Grievance Policy
+
+Academic and student social code of conduct information is found on the NMSU Syllabus Student Resources website. Information on the Academic Grievance Policy can be found in the Student Handbook. The student handbook can be found on the Student Services quick link sidebar.
+
+---
+
+## Ethics Statement
+
+New Mexico State University is committed to maintaining the highest standards of ethics and integrity in all of its academic and administrative operations, by promoting such standards among its regents, administrators, faculty, staff, students and others acting on behalf of the university (including those acting on behalf of university controlled entities) and by striving to ensure a level of accountability appropriate for a public institution.
+
+---
+
+## Statement on AI
+
+This course assumes that all work submitted by students will be generated by the students themselves, working individually or in groups. Students should not have another person/entity do the writing of any substantive portion of an assignment for them, which includes hiring a person or a company to write assignments and using AI tools.
+
+---
+
+## Communication & Course Expectations
+
+### Response Time
+
+I will typically respond to emails within 24 hours during weekdays. Messages sent after 5 PM Friday may not receive responses until the following Monday.
+
+### Attendance & Participation
+
+Success in this course requires regular attendance and active participation. Class activities, discussions, and worksheets are core to learning.
+
+- Attend class regularly
+- Participate in worksheets and activities
+- Engage in group discussions and experiments
+- Ask questions when concepts are unclear
+
+### Technical Support
+
+For technical issues with course materials, email the instructor or contact NMSU IT Help Desk.
+
+---
+
+## Course Expectations & Tips for Success
+
+### How to Succeed in This Course
+
+1. Come to class prepared - Read the chapter before class; bring your textbook
+2. Engage during class - Participate in discussions and simulations
+3. Complete worksheets promptly - Don't wait until the last minute; they're due at end of class
+4. Work on Profit Fish incrementally - Don't try to do it all at once
+5. Write notebook entries weekly - Reflection works best when fresh
+6. Ask for help early - Visit office hours if concepts are unclear
+7. Connect concepts to real life - Economics is everywhere!
+
+### What I Expect From You
+
+- Professional communication via email
+- Respectful engagement with classmates
+- Academic honesty in all work
+- Timely submission of assignments
+- Active participation in class activities
+- Completion of worksheets by end of class (with stamp)
+
+### What You Can Expect From Me
+
+- Clear learning objectives and assessment criteria
+- Timely and constructive feedback
+- Availability during office hours
+- Enthusiasm for teaching economics
+- Responsive communication
+- Fair and consistent grading
+
+---
+
+# Course Philosophy
+
+This course embraces the idea that economics is everywhere. Every decision you make involves economic thinking. By understanding the principles in this course, you'll see the world differently—recognizing the incentives, constraints, and trade-offs that shape our lives.
+
+"Better Decisions -- That's What Economics is All About."
+
+Our 15 G.O.A.T topics build from foundational concepts (scarcity, opportunity cost, marginal thinking) through consumer and producer behavior, to market dynamics and real-world applications. Each topic connects to the next, creating a comprehensive understanding of how economies work.
+
+---
+
+## Changes to Syllabus
+
+The instructor reserves the right to make changes to this syllabus as needed during the semester. Students will be notified of any changes via email and class announcement. The most current version of this syllabus will be available on the course website.
+
+---
+
+**Last Updated:** January 27, 2026  
+**Version:** Spring 2026 - M04 Section
+
+---
+

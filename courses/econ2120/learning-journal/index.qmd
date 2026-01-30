@@ -1,0 +1,13 @@
+---
+title: "The GOAT Market"
+subtitle: "Learning Journal"
+sidebar: false
+page-layout: full
+toc: false
+---
+
+# Learning-Journal Assignments
+
+[Entry 1](/learning-journal/linked-in-profile.html)
+[Entry 2](/learning-journal/thrift-shop.html)
+

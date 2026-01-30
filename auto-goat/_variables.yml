@@ -1,0 +1,43 @@
+# Institutional Variables
+# These are shared across all courses at NMSU
+
+institution:
+  name: "New Mexico State University"
+  abbreviation: "NMSU"
+  location: "Las Cruces, NM"
+  website: "https://nmsu.edu"
+
+contact_info:
+  disability_services:
+    name: "Disability Access Services"
+    phone: "575-646-6840"
+    email: "das@nmsu.edu"
+    location: "Corbett Center Student Union Room 204"
+
+  tutoring:
+    general: "https://campustutoring.nmsu.edu/"
+    math: "https://math.nmsu.edu/math-tutoring-page.html"
+    writing: "https://writingcenter.nmsu.edu/"
+
+  tech_support:
+    ict_phone: "646-1840"
+    ict_email: "helpdesk@nmsu.edu"
+    canvas_phone: "(575) 646-5125"
+    canvas_email: "learning@nmsu.edu"
+
+  equity:
+    name: "Office of Institutional Equity"
+    phone: "575-646-3635"
+    email: "equity@nmsu.edu"
+    url: "https://equity.nmsu.edu"
+
+policies:
+  academic_honesty_url: "http://studenthandbook.nmsu.edu/"
+  plagiarism_url: "https://nmsu.libguides.com/plagiarism"
+  grading_policy: "https://arp.nmsu.edu/chapter-4/4-55.html"
+
+emergency:
+  police: "575-646-3311"
+  health_wellness: "575-646-1512"
+  dean_students: "575-646-1722"
+  emergency: "911"

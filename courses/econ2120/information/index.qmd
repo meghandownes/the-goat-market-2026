@@ -1,0 +1,34 @@
+---
+title: "The GOAT Market"
+subtitle: "Information You Need"
+sidebar: false
+page-layout: full
+toc: false
+---
+
+# Select Your Course
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Syllabus
+[Explore Syllabus →](information/syllabus.html){.btn .btn-primary .btn-lg}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Schedule
+[Explore Schedule →](courses/econ2110/schedule.html){.btn .btn-primary .btn-lg}
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Grading
+[Explore Grading →](courses/econ304/grading.html){.btn .btn-primary .btn-lg}
+:::
+
+::::
+
+### 📚 About This Website
+
+Created by Dr. Meghan Downes. January 2026.  No part of this material may be copied, distributed or used without permission of Dr. Downes.  All material is subject to change. Some AI may have been harmed in the creation of these course materials. Specifically I may have been polite with Perplexity and continued to iterate on an idea ad nauseum.  All irreverent humor or out-and-out stupidity is, however, all the result of Dr. Downes.  
+
+

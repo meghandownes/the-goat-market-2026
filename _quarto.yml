@@ -3,131 +3,88 @@ project:
   output-dir: docs
   pre-render:
     - echo "Building The GOAT Market site..."
+
 website:
   title: "The GOAT Market"
+  site-url: "https://meghandownes.github.io/the-goat-market-2026/"
   navbar:
-    background: primary
-    search: true
+    title: "THE GOAT MARKET"
+    logo: images/IamTheGoat.svg
     left:
       - text: "Home"
         href: index.qmd
       - text: "Microeconomics"
-        href: courses/ECON2120/index.qmd
+        href: courses/econ2120/index.qmd
       - text: "Macroeconomics"
-        href: courses/ECON2110/index.qmd
+        href: courses/econ2110/index.qmd
       - text: "Money & Banking"
-        href: courses/ECON304/index.qmd
+        href: courses/econ304/index.qmd
       - text: "Resources"
         href: resources/index.qmd
+
   sidebar:
-    # Money & Banking (ECON304) Sidebar
+    # Money & Banking (ECON304) Sidebar - SIMPLIFIED
     - id: econ304
       title: "ECON 304: Money & Banking"
-      style: "docked"
+      style: docked
       search: true
-      background: "secondary"
-      collapse-level: 2
+      background: secondary
+      collapse-level: 1
       contents:
         - text: "Course Home"
-          href: courses/ECON304/index.qmd
-        - section: "Course Materials"
-          contents:
-            - text: "Syllabus"
-              href: courses/ECON304/syllabus.qmd
-            - text: "Schedule"
-              href: courses/ECON304/schedule.qmd
-            - text: "Resources"
-              href: courses/ECON304/resources.qmd
-        - section: "Interactive Tools"
-          contents:
-            - text: "Fed Funds Rate Explorer"
-              href: courses/ECON304/tools.qmd
-            - text: "Money Supply Tracker"
-              href: courses/ECON304/tools.qmd
-            - text: "Interest Rate Simulator"
-              href: courses/ECON304/tools.qmd
-        - section: "Practice & Assignments"
-          contents:
-            - text: "Problem Sets"
-              href: courses/ECON304/practice.qmd
-            - text: "Polls & Surveys"
-              href: courses/ECON304/practice.qmd
-        - auto: "courses/ECON304/"
-          glob: "*.qmd"
+          href: courses/econ304/index.qmd
+        - text: "Information"
+          href: courses/econ304/information/index.qmd
+        - text: "Lectures"
+          href: courses/econ304/lectures/index.qmd
+        - text: "Worksheets"
+          href: courses/econ304/worksheets/index.qmd
+        - text: "Resources"
+          href: courses/econ304/resources/index.qmd
+
+    # Macroeconomics (ECON2110) Sidebar - SIMPLIFIED
     - id: econ2110
       title: "ECON 2110: Principles of Macroeconomics"
-      style: "docked"
+      style: docked
       search: true
-      background: "secondary"
-      collapse-level: 2
+      background: secondary
+      collapse-level: 1
       contents:
         - text: "Course Home"
-          href: courses/ECON2110/index.qmd
-        - section: "Course Materials"
-          contents:
-            - text: "Syllabus"
-              href: courses/ECON2110/syllabus.qmd
-            - text: "Schedule"
-              href: courses/ECON2110/schedule.qmd
-            - text: "Resources"
-              href: courses/ECON2110/resources.qmd
-        - section: "Interactive Tools"
-          contents:
-            - text: "GDP Calculator"
-              href: courses/ECON2110/tools.qmd
-            - text: "Inflation Explorer"
-              href: courses/ECON2110/tools.qmd
-            - text: "Labor Market Simulator"
-              href: courses/ECON2110/tools.qmd
-        - section: "Practice & Assignments"
-          contents:
-            - text: "Problem Sets"
-              href: courses/ECON2110/practice.qmd
-            - text: "Polls & Surveys"
-              href: courses/ECON2110/practice.qmd
-        - auto: "courses/ECON2110/"
-          glob: "*.qmd"
-    # Microeconomics (ECON2120) Sidebar
+          href: courses/econ2110/index.qmd
+        - text: "Information"
+          href: courses/econ2110/information/index.qmd
+        - text: "Lectures"
+          href: courses/econ2110/lectures/index.qmd
+        - text: "Worksheets"
+          href: courses/econ2110/worksheets/index.qmd
+        - text: "Resources"
+          href: courses/econ2110/resources/index.qmd
+
+    # Microeconomics (ECON2120) Sidebar - SIMPLIFIED
     - id: econ2120
       title: "ECON 2120: Principles of Microeconomics"
-      style: "docked"
+      style: docked
       search: true
-      background: "secondary"
-      collapse-level: 2
+      background: secondary
+      collapse-level: 1
       contents:
         - text: "Course Home"
-          href: courses/ECON2120/index.qmd
-        - section: "Course Materials"
-          contents:
-            - text: "Syllabus"
-              href: courses/ECON2120/syllabus.qmd
-            - text: "Schedule"
-              href: courses/ECON2120/schedule.qmd
-            - text: "Resources"
-              href: courses/ECON2120/resources.qmd
-        - section: "Interactive Tools"
-          contents:
-            - text: "Supply & Demand Visualizer"
-              href: courses/ECON2120/tools.qmd
-            - text: "Elasticity Calculator"
-              href: courses/ECON2120/tools.qmd
-            - text: "Consumer Choice Simulator"
-              href: courses/ECON2120/tools.qmd
-            - text: "Market Equilibrium Explorer"
-              href: courses/ECON2120/tools.qmd
-        - section: "Practice & Assignments"
-          contents:
-            - text: "Problem Sets"
-              href: courses/ECON2120/practice.qmd
-            - text: "Polls & Surveys"
-              href: courses/ECON2120/practice.qmd
-        - auto: "courses/ECON2120/"
-          glob: "*.qmd"
+          href: courses/econ2120/index.qmd
+        - text: "Information"
+          href: courses/econ2120/information/index.qmd
+        - text: "Lectures"
+          href: courses/econ2120/lectures/index.qmd
+        - text: "Worksheets"
+          href: courses/econ2120/worksheets/index.qmd
+        - text: "Resources"
+          href: courses/econ2120/resources/index.qmd
+
     # Resources & General Sidebar
     - id: resources
       title: "Resources & Support"
-      style: "docked"
-      background: "light"
+      style: docked
+      background: light
       collapse-level: 1
       contents:
         - text: "Home"
@@ -140,8 +97,10 @@ website:
           href: resources/r-statistics.qmd
         - text: "About"
           href: about.qmd
+
   page-navigation: false
   back-to-top-navigation: true
+
   page-footer:
     background: dark
     left: "Copyright 2026, Dr. Meghan Downes | NMSU Economics, Applied Statistics, and International Business"
@@ -150,22 +109,25 @@ website:
         href: https://github.com/meghandownes
       - icon: envelope
         href: mailto:cmdownes@nmsu.edu
+
   announcement:
     icon: info-circle
     dismissable: true
     content: "📢 **Announcements** - Check Canvas LMS for assignment submissions and grades. This site contains course materials and interactive practice tools only."
     type: info
     position: below-navbar
+
 format:
   html:
     theme: lux
     css: styles.css
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     link-external-icon: true
     link-external-newwindow: true
     code-fold: true
     code-overflow: wrap
+
 execute:
   freeze: auto
   cache: true

@@ -1,0 +1,91 @@
+---
+title: "ECON 2120: Principles of Microeconomics"
+subtitle: "Understanding Individual Consumers, Firms, and Markets"
+sidebar: econ2120
+toc: false
+---
+
+## Course Overview
+
+This course introduces the economic principles governing individual consumers, firms, and markets. You'll learn how supply and demand determine prices, how consumers make decisions, why firms behave the way they do, and how different market structures affect competition and pricing.
+
+---
+
+## Quick Navigation
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### 📋 Information
+- [Syllabus](information/syllabus.html)
+- [Schedule](information/schedule.html)  
+- [Resources](information/resources.html)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 🎓 Learning Materials
+- [Lectures](lectures/index.qmd)
+- [Worksheets](worksheets/index.qmd)
+- [Learning Journal](learning-journal/index.qmd)
+:::
+
+:::
+
+---
+
+## Course Information
+
+This course is offered in **two sections**:
+
+| Element | M05 (Morning) | M02 (Afternoon) |
+|---------|--------------|-----------------|
+| **Code** | ECON 2120G - M05 | ECON 2120G - M02 |
+| **Time** | Tues & Thurs, 10:30-11:45 AM | Tues & Thurs, 12:00-1:15 PM |
+| **Location** | DOM16 | DOM16 |
+
+**Credits:** 3 | **Semester:** Spring 2026
+
+### Instructor Contact
+
+**Dr. Meghan Downes**  
+Email: cmdownes@nmsu.edu | Office: DOM224 | By Appointment
+
+---
+
+## Learning Objectives
+
+By the end of this course, you will be able to:
+
+- Apply supply and demand analysis to real markets
+- Understand consumer preferences and utility maximization
+- Analyze firm behavior and profit maximization
+- Evaluate market structures and competitive strategies
+- Calculate elasticity and understand its economic implications
+- Apply microeconomic principles to current business and policy decisions
+
+---
+
+## Interactive Tools
+
+**Supply & Demand Visualizer** | **Elasticity Calculator** | **Consumer Choice Simulator** | **Market Equilibrium Explorer**  
+[Open →](https://your-username.shinyapps.io/econ2120-supply-demand/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ2120-elasticity-calc/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ2120-consumer-choice/){.btn .btn-sm .btn-primary} | [Open →](https://your-username.shinyapps.io/econ2120-market-equilibrium/){.btn .btn-sm .btn-primary}
+
+---
+
+## How to Succeed
+
+1. **Attend class regularly** — Material moves quickly
+2. **Complete readings before class** — Come prepared
+3. **Master the graphs** — Microeconomics is visual
+4. **Use interactive tools** — Practice with real data
+5. **Work practice problems** — Reinforce your learning
+6. **Visit office hours** — Get help early
+
+---
+
+## Important Notes
+
+📌 **All grades and assignments are in Canvas LMS**  
+This site provides learning materials and practice tools only. No personal data is collected here.
+
+**Need help?** Email Dr. Downes or visit office hours (by appointment).

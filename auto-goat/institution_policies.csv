@@ -1,0 +1,8 @@
+policy_id,policy_name,description,applies_to
+ACADEMIC_INTEGRITY,Academic Integrity,"All work must be your own. Acceptable: Collaborating on understanding, discussing concepts. Not acceptable: Copying, identical submissions.","all"
+ATTENDANCE,Class Attendance,"Students must attend classes regularly. Authorized absences must be documented and reported by sponsoring department.","all"
+RELIGIOUS_OBSERVANCE,Religious Observances,"Students may request excused absences for religious or cultural observances. Must notify instructor in writing and in advance.","all"
+DISABILITIES,Disability Accommodations,"Students with disabilities may request accommodations. Contact Disability Access Services (DAS) for formal accommodation process.","all"
+LATE_WORK,Late Work Policy,"Policies vary by assignment type. See individual assignment details for late submission penalties.","all"
+EXAM_POLICY,Exam Attendance,"Students encouraged to take all in-class exams. Missed exams without excuse = lowest grade dropped. No makeup exams.","all"
+FERPA,FERPA Compliance,"Student records are confidential per FERPA. Grades and personal information will not be shared without consent.","all"

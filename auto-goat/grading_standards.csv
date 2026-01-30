@@ -1,0 +1,6 @@
+grade,min_points,max_points,min_percentage,max_percentage,description
+A,90,100,90,100,"Excellent - demonstrates mastery of course concepts and objectives"
+B,80,89,80,89,"Good - demonstrates solid understanding of course concepts"
+C,70,79,70,79,"Satisfactory - demonstrates understanding of core course concepts"
+D,60,69,60,69,"Passing - demonstrates minimal understanding of course concepts"
+F,0,59,0,59,"Failing - does not demonstrate sufficient understanding of course concepts"

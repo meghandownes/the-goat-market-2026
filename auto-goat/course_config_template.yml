@@ -1,0 +1,83 @@
+# Course Configuration Template
+# Copy this file and customize for your course
+# File naming convention: COURSECODE-SEMESTER-SECTION.yml
+# Example: ECON2120G-SP2026-M02.yml
+
+course:
+  code: "COURSE###"                    # e.g., ECON2120G, MATH1210
+  title: "Course Title"                 # e.g., Principles of Microeconomics
+  section: "M01"                        # Section code (M01, M02, M03, etc.)
+  credits: 3                            # Number of credit hours
+  semester: "SP2026"                    # Format: SP (Spring), FA (Fall), SU (Summer), WI (Winter) + YEAR
+  start_date: "2026-01-21"              # ISO format: YYYY-MM-DD
+  end_date: "2026-05-08"                # ISO format: YYYY-MM-DD
+
+instructor:
+  name: "Dr. First Last"
+  email: "email@nmsu.edu"
+  office: "BUILDING###"
+  phone: "575.###.####"
+  office_hours: "BY APPOINTMENT ONLY"
+
+meeting:
+  location: "Building Room"
+  days: "Tuesday & Thursday"            # or "Monday, Wednesday, Friday"
+  time: "12:00 PM - 1:15 PM"
+  format: "Face-to-Face"                # Face-to-Face, Online, Hybrid
+
+# Paths to course data files (relative to repo root)
+data_paths:
+  schedule: "data/COURSE###/SEMESTER/SECTION/course_schedule.csv"
+  assignments: "data/COURSE###/SEMESTER/SECTION/assignments.csv"
+  grading: "data/COURSE###/SEMESTER/SECTION/grading_scale.csv"
+  rubrics_dir: "data/COURSE###/SEMESTER/SECTION/rubrics/"
+  metadata: "data/COURSE###/SEMESTER/SECTION/metadata.yml"
+
+# Course Description
+description:
+  short: "One-line course overview"
+  full: |
+    Multi-paragraph course description. This appears in the syllabus
+    and should explain what students will learn and why the course matters.
+
+# Learning Outcomes (list of 4-6)
+learning_outcomes:
+  - "Learning outcome 1"
+  - "Learning outcome 2"
+  - "Learning outcome 3"
+
+# Textbook(s)
+textbooks:
+  - title: "Book Title"
+    edition: "Edition number"
+    authors: "Author Names"
+    publisher: "Publisher"
+    isbn:
+      - "ISBN-13"
+      - "ISBN-10"
+    required: true
+    format: ["print", "ebook"]
+
+# Required Course Materials
+required_materials:
+  - "3-Ring Binder"
+  - "Graphing Calculator"
+  - "Scientific Calculator"
+
+# Policies & Resources
+institutional_policies: true            # Use shared policies from data/shared/
+institutional_resources: true           # Use shared resources from data/shared/
+
+# Include specific syllabus sections (true/false)
+sections:
+  academic_integrity: true
+  attendance: true
+  late_work: true
+  accommodations: true
+  resources: true
+  policies: true
+
+# Custom notes or additions
+custom_notes: |
+  Any additional course-specific information that doesn't fit
+  standard template sections.

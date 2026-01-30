@@ -1,0 +1,387 @@
+---
+title: Course Syllabus
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    highlight-style: github
+    code-fold: false
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
+params:
+  config_file: "config/ECON2120G-SP2026-M02.yml"
+---
+
+```{r setup, include=FALSE}
+# Load required libraries
+library(yaml)
+library(glue)
+library(stringr)
+library(lubridate)
+library(readr)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+# Set knitr options for output
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center"
+)
+
+# Source helper functions
+source("r/load_config.R")
+source("r/render_helpers.R")
+
+# Load configuration
+config_result <- load_course_config(params$config_file, verbose = FALSE)
+config <- config_result$config
+data_files <- config_result$data
+
+if (!config_result$status) {
+  stop(glue("Failed to load configuration: {params$config_file}"))
+}
+```
+
+```{r title-block}
+# Display dynamic title block
+glue("# {config$course$code}: {config$course$title}") %>%
+  cat("\n\n")
+
+glue("**Section:** {config$course$section} | ",
+     "**Semester:** {format_semester_display(config$course$semester)}") %>%
+  cat("\n\n---\n\n")
+```
+
+## Course Information
+
+### Basic Details
+
+| Item | Information |
+|------|-------------|
+| **Course Code** | `{config$course$code}` |
+| **Course Title** | {config$course$title} |
+| **Section** | {config$course$section} |
+| **Credits** | {format_credits(config$course$credits)} |
+| **Semester** | {format_semester_display(config$course$semester)} |
+| **Duration** | {format_date_range(config$course$start_date, config$course$end_date)} |
+
+### Instructor Information
+
+**Instructor:** {config$instructor$name}  
+**Email:** {format_email_link(config$instructor$email)}  
+**Office:** {config$instructor$office %||% "To be announced"}  
+**Phone:** {config$instructor$phone %||% "Available via email"}  
+**Office Hours:** {config$instructor$office_hours %||% "By appointment"}
+
+### Class Meeting Information
+
+- **Location:** {config$meeting$location}
+- **Days & Time:** {config$meeting$days}, {config$meeting$time}
+- **Format:** {config$meeting$format %||% "Face-to-Face"}
+
+---
+
+## Course Description
+
+{config$description$short}
+
+{if (!is.null(config$description$full) && config$description$full != "") {config$description$full} else {""}}
+
+---
+
+## Learning Outcomes
+
+By the end of this course, you will be able to:
+
+```{r learning-outcomes}
+outcomes <- config$learning_outcomes %||% list()
+
+if (length(outcomes) > 0) {
+  for (i in seq_along(outcomes)) {
+    cat(glue("- {outcomes[[i]]}\n"))
+  }
+} else {
+  cat("- Course learning outcomes will be provided on first day of class\n")
+}
+```
+
+---
+
+## Required Materials
+
+### Textbooks
+
+```{r textbooks}
+textbooks <- config$textbooks %||% list()
+
+if (length(textbooks) > 0) {
+  for (i in seq_along(textbooks)) {
+    tb <- textbooks[[i]]
+    
+    title <- tb$title %||% "Unknown Title"
+    authors <- tb$authors %||% "Unknown Author"
+    edition <- tb$edition %||% "Latest Edition"
+    publisher <- tb$publisher %||% "Unknown Publisher"
+    required_str <- if (tb$required %||% TRUE) "**REQUIRED**" else "Optional"
+    
+    # Format ISBN if available
+    isbn_str <- ""
+    if (!is.null(tb$isbn) && length(tb$isbn) > 0) {
+      isbn_vals <- paste(tb$isbn, collapse = " / ")
+      isbn_str <- glue(" (ISBN: {isbn_vals})")
+    }
+    
+    # Format availability
+    formats <- tb$format %||% c("print")
+    format_str <- paste(formats, collapse = ", ")
+    
+    cat(glue(
+      "**{title}** ({edition})\n",
+      "- Author: {authors}\n",
+      "- Publisher: {publisher}{isbn_str}\n",
+      "- Status: {required_str} | Available in: {format_str}\n\n"
+    ))
+  }
+} else {
+  cat("No required textbook. All course materials will be provided on Blackboard.\n")
+}
+```
+
+### Additional Materials
+
+```{r materials}
+materials <- config$required_materials %||% list()
+
+if (length(materials) > 0) {
+  cat("The following materials are required for this course:\n\n")
+  for (i in seq_along(materials)) {
+    cat(glue("- {materials[[i]]}\n"))
+  }
+} else {
+  cat("No additional materials required beyond textbooks listed above.\n")
+}
+```
+
+---
+
+## Course Requirements & Grading
+
+### Grading Scale
+
+```{r grading-scale}
+if (!is.null(data_files$grading) && nrow(data_files$grading) > 0) {
+  # Custom grading scale provided
+  grading_df <- data_files$grading
+  
+  # Ensure proper column names
+  if ("Grade" %in% names(grading_df) && "Range" %in% names(grading_df)) {
+    knitr::kable(
+      grading_df[, c("Grade", "Range")],
+      caption = "Grading Scale",
+      align = "cc"
+    ) %>%
+      kableExtra::kable_styling(
+        bootstrap_options = c("striped", "hover", "condensed"),
+        full_width = FALSE
+      )
+  } else {
+    cat("| Grade | Range |\n")
+    cat("|-------|-------|\n")
+    cat("| A | 90-100% |\n")
+    cat("| B | 80-89% |\n")
+    cat("| C | 70-79% |\n")
+    cat("| D | 60-69% |\n")
+    cat("| F | Below 60% |\n")
+  }
+} else {
+  cat("| Grade | Range |\n")
+  cat("|-------|-------|\n")
+  cat("| A | 90-100% |\n")
+  cat("| B | 80-89% |\n")
+  cat("| C | 70-79% |\n")
+  cat("| D | 60-69% |\n")
+  cat("| F | Below 60% |\n")
+}
+```
+
+### Assignment Breakdown
+
+```{r assignments}
+if (!is.null(data_files$assignments) && nrow(data_files$assignments) > 0) {
+  assignments <- data_files$assignments
+  
+  # Select relevant columns
+  display_cols <- intersect(
+    names(assignments),
+    c("Assignment", "Type", "Due_Date", "Points", "Percent")
+  )
+  
+  if (length(display_cols) == 0) {
+    display_cols <- names(assignments)[1:min(4, length(names(assignments)))]
+  }
+  
+  knitr::kable(
+    assignments[, display_cols],
+    caption = "Course Assignments"
+  ) %>%
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = TRUE
+    )
+} else {
+  cat("Detailed assignment breakdown will be provided on the first day of class and updated on Blackboard.\n")
+}
+```
+
+---
+
+## Course Schedule
+
+```{r course-schedule}
+if (!is.null(data_files$schedule) && nrow(data_files$schedule) > 0) {
+  schedule <- data_files$schedule
+  
+  # Format dates if present
+  if ("Date" %in% names(schedule)) {
+    schedule$Date <- format(as.Date(schedule$Date), "%a, %b %d")
+  }
+  
+  knitr::kable(
+    schedule,
+    caption = "Course Meeting Schedule"
+  ) %>%
+    kableExtra::kable_styling(
+      bootstrap_options = c("striped", "hover"),
+      full_width = TRUE
+    )
+} else {
+  cat("The detailed course schedule will be provided on Blackboard. ",
+      "Generally, we will meet on the scheduled days/times listed above.\n")
+}
+```
+
+**Note:** This schedule is subject to change at the instructor's discretion with adequate notice to students.
+
+---
+
+## Course Expectations & Policies
+
+### Class Participation
+
+Regular attendance and active participation are expected and valued in this course. Students are responsible for material covered in class, including announcements and changes to assignments. If you must miss class, contact the instructor in advance when possible.
+
+### Late Work
+
+Late work will be accepted with a penalty as follows:
+
+- **1-2 days late:** 10% reduction in grade
+- **3-5 days late:** 25% reduction in grade
+- **Beyond 5 days:** 50% reduction in grade
+
+Extensions may be granted for documented emergencies or conflicts at the instructor's discretion.
+
+### Academic Integrity
+
+NMSU has an Honor Code that all students are expected to follow. Violations of academic integrity (cheating, plagiarism, unauthorized collaboration) will be addressed according to university policy and may result in failing the assignment or the course. Students are encouraged to review the Honor Code at [NMSU Student Conduct Code](https://studentconduct.nmsu.edu/).
+
+### Classroom Conduct
+
+Students are expected to:
+
+- Arrive on time and attend regularly
+- Come prepared for class
+- Treat instructors and classmates with respect
+- Refrain from disruptive behavior
+- Put away cell phones and laptops unless required for class
+
+### Accommodations for Students with Disabilities
+
+New Mexico State University is committed to providing inclusive educational services. Students who have disabilities and wish to request accommodations should contact the Disability Services office in O'Donnell Hall 115 or call (575) 646-2889. Please bring official documentation of your disability to the office when requesting accommodations.
+
+### Technology & Connectivity
+
+This course uses Blackboard for course materials and communication. Students should:
+
+- Check Blackboard regularly (at least 2-3 times per week)
+- Ensure they have reliable internet access
+- Use official NMSU email for course communication
+- Be familiar with technical support resources (IT Help Desk: 575-646-HELP)
+
+---
+
+## Course Resources & Support
+
+### Writing Center
+
+The NMSU Writing Center offers free peer writing consultations to help with any type of writing assignment. Located in the Library Building or online via Zoom. Schedule appointments at: [writingcenter.nmsu.edu](https://writingcenter.nmsu.edu/)
+
+### Tutoring Services
+
+Free tutoring is available for this course and other subjects through the NMSU Tutoring Center. Visit [tutoringcenter.nmsu.edu](https://tutoringcenter.nmsu.edu/) to schedule appointments.
+
+### Library Resources
+
+The NMSU Library provides subject-specific librarians, research guides, and access to databases relevant to this course. Visit [lib.nmsu.edu](https://lib.nmsu.edu/) or call (575) 646-1912.
+
+### Counseling & Mental Health Services
+
+If you are experiencing stress, anxiety, depression, or other mental health concerns, the NMSU Counseling Center offers free, confidential services. Located in Garcia Hall, third floor, or call (575) 646-2731.
+
+### Student Success Services
+
+NMSU Student Success Services offers tutoring, academic coaching, and support for test preparation. Visit [studentsuccessservices.nmsu.edu](https://studentsuccessservices.nmsu.edu/).
+
+---
+
+## Additional Information
+
+### Communication
+
+I am committed to being accessible and responsive to student questions and concerns. The best way to contact me is via email at {config$instructor$email}. I will respond to emails within 24 hours during the business week.
+
+### Course Communication
+
+Important announcements will be made in class and posted on Blackboard. Students are responsible for checking Blackboard regularly and reading announcements.
+
+### Syllabus Changes
+
+This syllabus is a general plan for the course. The instructor reserves the right to make changes in content, schedule, and grading as necessary. Students will be notified of any significant changes.
+
+---
+
+## Summary
+
+I am excited to work with you this semester! This course is designed to help you develop important skills and knowledge in this field. I am committed to making this a positive learning experience and encourage you to reach out with questions, concerns, or suggestions throughout the semester.
+
+Welcome to {config$course$code}!
+
+---
+
+**Prepared:** {Sys.Date()}  
+**Course:** {config$course$code} {format_semester_display(config$course$semester)}  
+**Instructor:** {config$instructor$name}
+
+---
+
+## Appendix: Important Dates
+
+- **Semester Start:** {format(as.Date(config$course$start_date), "%B %d, %Y")}
+- **Semester End:** {format(as.Date(config$course$end_date), "%B %d, %Y")}
+- **Add/Drop Deadline:** Contact Registrar for current dates
+- **Withdrawal Deadline:** Contact Registrar for current dates
+- **Final Exams:** See university calendar
+
+Please consult the NMSU academic calendar for important university-wide dates and deadlines.
+
+---
+
+::: {.callout-note}
+This syllabus was generated on `r Sys.Date()` using the auto-goat-schema Syllabus Generation System.
+:::\

@@ -12,17 +12,17 @@ toc: false
 
 ::: {.g-col-12 .g-col-md-4}
 ### ECON2120G
-[Explore Microeconomics →](courses/ECON2120/index.qmd){.btn .btn-primary .btn-lg}
+[Explore Microeconomics →](courses/econ2120/index.qmd){.btn .btn-primary .btn-lg}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### ECON2110G
-[Explore Macroeconomics →](courses/ECON2110/index.qmd){.btn .btn-primary .btn-lg}
+[Explore Macroeconomics →](courses/econ2110/index.qmd){.btn .btn-primary .btn-lg}
 :::
 
 ::: {.g-col-12 .g-col-md-4}
 ### ECON304
-[Explore Money & Banking →](courses/ECON304/index.qmd){.btn .btn-primary .btn-lg}
+[Explore Money & Banking →](courses/econ304/index.qmd){.btn .btn-primary .btn-lg}
 :::
 
 ::::
